@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(dir \"C:\\\\dev\\\\kirillmiller\")",
+      "Bash(dir \"C:\\\\dev\\\\kirillmiller\\\\kirillmiller.com\")",
+      "Bash(dir \"C:\\\\dev\\\\kirillmiller\\\\kirillmiller.com\\\\www\")",
+      "Bash(php -v:*)",
+      "Bash(php -S:*)"
+    ]
+  }
+}

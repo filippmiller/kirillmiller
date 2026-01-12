@@ -1,0 +1,2381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tt-language\n"
+"POT-Creation-Date: 2013-11-22 12:56+0530\n"
+"PO-Revision-Date: 2013-11-22 12:56+0530\n"
+"Last-Translator: harjinder <harjinder.singh@sofster.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../12345/404.php:62 ../csschange/404.php:64 ../finalexp/404.php:64
+#: ../finaltheme/404.php:64 ../good/404.php:61 ../latestfile/404.php:64
+#: ../qwert/404.php:61 ../twentythirteen/404.php:21 ../twentytwelve/404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../12345/404.php:64 ../csschange/404.php:66 ../finalexp/404.php:66
+#: ../finaltheme/404.php:66 ../good/404.php:63 ../latestfile/404.php:66
+#: ../qwert/404.php:63
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#: ../12345/404.php:70 ../csschange/404.php:72 ../finalexp/404.php:72
+#: ../finaltheme/404.php:72 ../good/404.php:69 ../latestfile/404.php:72
+#: ../qwert/404.php:69
+msgid "Most Used Categories"
+msgstr ""
+
+#: ../12345/404.php:77 ../csschange/404.php:79 ../finalexp/404.php:79
+#: ../finaltheme/404.php:79 ../good/404.php:76 ../latestfile/404.php:79
+#: ../qwert/404.php:76
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../12345/archive.php:66 ../csschange/archive.php:68
+#: ../finalexp/archive.php:68 ../finaltheme/archive.php:68
+#: ../good/archive.php:65 ../latestfile/archive.php:68 ../qwert/archive.php:65
+#: ../twentythirteen/archive.php:29 ../twentytwelve/archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../12345/archive.php:68 ../csschange/archive.php:70
+#: ../finalexp/archive.php:70 ../finaltheme/archive.php:70
+#: ../good/archive.php:67 ../latestfile/archive.php:70 ../qwert/archive.php:67
+#: ../twentythirteen/archive.php:31 ../twentytwelve/archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../12345/archive.php:70 ../csschange/archive.php:72
+#: ../finalexp/archive.php:72 ../finaltheme/archive.php:72
+#: ../good/archive.php:69 ../latestfile/archive.php:72 ../qwert/archive.php:69
+#: ../twentythirteen/archive.php:33 ../twentytwelve/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../12345/archive.php:72 ../csschange/archive.php:74
+#: ../finalexp/archive.php:74 ../finaltheme/archive.php:74
+#: ../good/archive.php:71 ../latestfile/archive.php:74 ../qwert/archive.php:71
+msgid "Blog Archives"
+msgstr ""
+
+#: ../12345/archive.php:154 ../12345/author.php:164 ../12345/category.php:150
+#: ../12345/index.php:144 ../12345/search.php:146 ../12345/tag.php:150
+#: ../csschange/archive.php:153 ../csschange/author.php:163
+#: ../csschange/category.php:149 ../csschange/index.php:143
+#: ../csschange/search.php:145 ../csschange/tag.php:149
+#: ../finalexp/archive.php:153 ../finalexp/author.php:163
+#: ../finalexp/category.php:149 ../finalexp/index.php:143
+#: ../finalexp/search.php:145 ../finalexp/tag.php:149
+#: ../finaltheme/archive.php:153 ../finaltheme/author.php:163
+#: ../finaltheme/category.php:149 ../finaltheme/index.php:143
+#: ../finaltheme/search.php:145 ../finaltheme/tag.php:149
+#: ../good/archive.php:153 ../good/author.php:163 ../good/category.php:149
+#: ../good/index.php:143 ../good/search.php:145 ../good/tag.php:149
+#: ../latestfile/archive.php:156 ../latestfile/author.php:166
+#: ../latestfile/category.php:152 ../latestfile/index.php:146
+#: ../latestfile/search.php:148 ../latestfile/tag.php:152
+#: ../qwert/archive.php:150 ../qwert/author.php:160 ../qwert/category.php:146
+#: ../qwert/index.php:140 ../qwert/search.php:142 ../qwert/tag.php:146
+#: ../twentythirteen/content-none.php:12 ../twentytwelve/content-none.php:13
+#: ../twentytwelve/index.php:49 ../twentytwelve/search.php:34
+msgid "Nothing Found"
+msgstr ""
+
+#: ../12345/archive.php:156 ../12345/author.php:166 ../12345/category.php:152
+#: ../12345/index.php:146 ../12345/search.php:148 ../12345/tag.php:152
+#: ../csschange/archive.php:155 ../csschange/author.php:165
+#: ../csschange/category.php:151 ../csschange/index.php:145
+#: ../csschange/search.php:147 ../csschange/tag.php:151
+#: ../finalexp/archive.php:155 ../finalexp/author.php:165
+#: ../finalexp/category.php:151 ../finalexp/index.php:145
+#: ../finalexp/search.php:147 ../finalexp/tag.php:151
+#: ../finaltheme/archive.php:155 ../finaltheme/author.php:165
+#: ../finaltheme/category.php:151 ../finaltheme/index.php:145
+#: ../finaltheme/search.php:147 ../finaltheme/tag.php:151
+#: ../good/archive.php:155 ../good/author.php:165 ../good/category.php:151
+#: ../good/index.php:145 ../good/search.php:147 ../good/tag.php:151
+#: ../latestfile/archive.php:158 ../latestfile/author.php:168
+#: ../latestfile/category.php:154 ../latestfile/index.php:148
+#: ../latestfile/search.php:150 ../latestfile/tag.php:154
+#: ../qwert/archive.php:152 ../qwert/author.php:162 ../qwert/category.php:148
+#: ../qwert/index.php:142 ../qwert/search.php:144 ../qwert/tag.php:148
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: ../12345/author.php:68 ../csschange/author.php:70 ../finalexp/author.php:70
+#: ../finaltheme/author.php:70 ../good/author.php:67
+#: ../latestfile/author.php:70 ../qwert/author.php:67
+#: ../twentytwelve/author.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../12345/author.php:81 ../csschange/author.php:83 ../finalexp/author.php:83
+#: ../finaltheme/author.php:83 ../good/author.php:80
+#: ../latestfile/author.php:83 ../qwert/author.php:80
+#: ../twentythirteen/author-bio.php:26 ../twentytwelve/author.php:63
+#: ../twentytwelve/content.php:59
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../12345/category.php:65 ../csschange/category.php:67
+#: ../finalexp/category.php:67 ../finaltheme/category.php:67
+#: ../good/category.php:64 ../latestfile/category.php:67
+#: ../qwert/category.php:64 ../twentythirteen/category.php:19
+#: ../twentytwelve/category.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../12345/comments.php:5 ../csschange/comments.php:5
+#: ../finalexp/comments.php:5 ../finaltheme/comments.php:5
+#: ../good/comments.php:5 ../latestfile/comments.php:5 ../qwert/comments.php:5
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../12345/comments.php:16 ../csschange/comments.php:16
+#: ../finalexp/comments.php:16 ../finaltheme/comments.php:16
+#: ../good/comments.php:16 ../latestfile/comments.php:16
+#: ../qwert/comments.php:16 ../twentytwelve/comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: ../12345/comments.php:22 ../12345/comments.php:35
+#: ../csschange/comments.php:22 ../csschange/comments.php:35
+#: ../finalexp/comments.php:22 ../finalexp/comments.php:35
+#: ../finaltheme/comments.php:22 ../finaltheme/comments.php:35
+#: ../good/comments.php:22 ../good/comments.php:35
+#: ../latestfile/comments.php:22 ../latestfile/comments.php:35
+#: ../qwert/comments.php:22 ../qwert/comments.php:35
+#: ../twentythirteen/comments.php:45 ../twentytwelve/comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: ../12345/comments.php:23 ../12345/comments.php:36
+#: ../csschange/comments.php:23 ../csschange/comments.php:36
+#: ../finalexp/comments.php:23 ../finalexp/comments.php:36
+#: ../finaltheme/comments.php:23 ../finaltheme/comments.php:36
+#: ../good/comments.php:23 ../good/comments.php:36
+#: ../latestfile/comments.php:23 ../latestfile/comments.php:36
+#: ../qwert/comments.php:23 ../qwert/comments.php:36
+#: ../twentythirteen/comments.php:46 ../twentytwelve/comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../12345/comments.php:24 ../12345/comments.php:37
+#: ../csschange/comments.php:24 ../csschange/comments.php:37
+#: ../finalexp/comments.php:24 ../finalexp/comments.php:37
+#: ../finaltheme/comments.php:24 ../finaltheme/comments.php:37
+#: ../good/comments.php:24 ../good/comments.php:37
+#: ../latestfile/comments.php:24 ../latestfile/comments.php:37
+#: ../qwert/comments.php:24 ../qwert/comments.php:37
+#: ../twentythirteen/comments.php:47 ../twentytwelve/comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../12345/comments.php:43 ../csschange/comments.php:43
+#: ../finalexp/comments.php:43 ../finaltheme/comments.php:43
+#: ../good/comments.php:43 ../latestfile/comments.php:43
+#: ../qwert/comments.php:43 ../twentythirteen/comments.php:52
+#: ../twentytwelve/comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: ../12345/content-page.php:27 ../12345/content-single.php:25
+#: ../12345/content.php:34 ../csschange/content-page.php:27
+#: ../csschange/content-single.php:25 ../csschange/content.php:34
+#: ../finalexp/content-page.php:27 ../finalexp/content-single.php:25
+#: ../finalexp/content.php:34 ../finaltheme/content-page.php:27
+#: ../finaltheme/content-single.php:25 ../finaltheme/content.php:34
+#: ../good/content-page.php:27 ../good/content-single.php:24
+#: ../good/content.php:33 ../latestfile/content-page.php:27
+#: ../latestfile/content-single.php:20 ../latestfile/content.php:29
+#: ../qwert/content-page.php:27 ../qwert/content-single.php:25
+#: ../qwert/content.php:34 ../twentythirteen/content-aside.php:14
+#: ../twentythirteen/content-audio.php:25
+#: ../twentythirteen/content-chat.php:24
+#: ../twentythirteen/content-gallery.php:25
+#: ../twentythirteen/content-image.php:24
+#: ../twentythirteen/content-link.php:25
+#: ../twentythirteen/content-quote.php:14
+#: ../twentythirteen/content-status.php:14
+#: ../twentythirteen/content-video.php:24 ../twentythirteen/content.php:42
+#: ../twentythirteen/image.php:70 ../twentythirteen/page.php:35
+#: ../twentytwelve/content-page.php:21 ../twentytwelve/content.php:42
+#: ../twentytwelve/image.php:102
+msgid "Pages:"
+msgstr ""
+
+#: ../12345/content-page.php:34 ../12345/content-single.php:64
+#: ../12345/content.php:67 ../csschange/content-page.php:34
+#: ../finalexp/content-page.php:34 ../finaltheme/content-page.php:34
+#: ../finaltheme/content-single.php:64 ../finaltheme/content.php:67
+#: ../good/content-page.php:34 ../latestfile/content-page.php:34
+#: ../qwert/content-page.php:34 ../qwert/content-single.php:64
+#: ../qwert/content.php:67
+msgid "Edit This"
+msgstr ""
+
+#: ../12345/content-single.php:29 ../12345/content-single.php:30
+#: ../12345/content.php:42 ../12345/content.php:49
+#: ../finaltheme/content-single.php:29 ../finaltheme/content-single.php:30
+#: ../finaltheme/content.php:42 ../finaltheme/content.php:49
+#: ../qwert/content-single.php:29 ../qwert/content-single.php:30
+#: ../qwert/content.php:42 ../qwert/content.php:49
+#: ../twentythirteen/functions.php:338 ../twentythirteen/functions.php:344
+#: ../twentytwelve/functions.php:376 ../twentytwelve/functions.php:379
+msgid ", "
+msgstr ""
+
+#: ../12345/content-single.php:33 ../12345/content-single.php:48
+#: ../finaltheme/content-single.php:33 ../finaltheme/content-single.php:48
+#: ../qwert/content-single.php:33 ../qwert/content-single.php:48
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. "
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: ../12345/content-single.php:35 ../12345/content-single.php:43
+#: ../12345/content-single.php:50 ../finaltheme/content-single.php:35
+#: ../finaltheme/content-single.php:43 ../finaltheme/content-single.php:50
+#: ../qwert/content-single.php:35 ../qwert/content-single.php:43
+#: ../qwert/content-single.php:50
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: ../12345/content-single.php:41 ../finaltheme/content-single.php:41
+#: ../qwert/content-single.php:41
+#, php-format
+msgid ""
+"This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a "
+"href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../12345/content-single.php:80 ../finaltheme/content-single.php:80
+#: ../qwert/content-single.php:80 ../twentythirteen/author-bio.php:30
+#: ../twentytwelve/content.php:63
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../12345/content.php:29 ../csschange/content.php:29
+#: ../finalexp/content.php:29 ../finaltheme/content.php:29
+#: ../good/content.php:28 ../latestfile/content.php:24 ../qwert/content.php:29
+msgid "Continue reading <span>&rarr;</span>"
+msgstr ""
+
+#: ../12345/content.php:45 ../finaltheme/content.php:45
+#: ../qwert/content.php:45
+#, php-format
+msgid "<span class=\"meta\">Posted in </span> %2$s"
+msgstr ""
+
+#: ../12345/content.php:54 ../finaltheme/content.php:54
+#: ../qwert/content.php:54
+#, php-format
+msgid "Tagged %2$s"
+msgstr ""
+
+#: ../12345/content.php:63 ../finaltheme/content.php:63
+#: ../qwert/content.php:63 ../twentytwelve/content-aside.php:23
+#: ../twentytwelve/content-image.php:23 ../twentytwelve/content-link.php:21
+#: ../twentytwelve/content-quote.php:20 ../twentytwelve/content-status.php:37
+#: ../twentytwelve/content.php:30
+msgid "Leave a reply"
+msgstr ""
+
+#: ../12345/content.php:63 ../finaltheme/content.php:63
+#: ../qwert/content.php:63
+msgid "<b>1</b> Reply"
+msgstr ""
+
+#: ../12345/content.php:63 ../finaltheme/content.php:63
+#: ../qwert/content.php:63
+msgid "<b>%</b> Replies"
+msgstr ""
+
+#: ../12345/custommenu.php:5 ../csschange/custommenu.php:5
+#: ../finalexp/custommenu.php:5 ../finaltheme/custommenu.php:5
+#: ../good/custommenu.php:5 ../latestfile/custommenu.php:5
+#: ../qwert/custommenu.php:5
+msgid "Use this widget to add one of your custom menus as a widget."
+msgstr ""
+
+#: ../12345/custommenu.php:6 ../csschange/custommenu.php:6
+#: ../finalexp/custommenu.php:6 ../finaltheme/custommenu.php:6
+#: ../finaltheme/custommenu.php:313 ../good/custommenu.php:6
+#: ../latestfile/custommenu.php:6 ../qwert/custommenu.php:6
+msgid "Custom Menu"
+msgstr ""
+
+#: ../12345/custommenu.php:79 ../csschange/custommenu.php:80
+#: ../finalexp/custommenu.php:80 ../finaltheme/custommenu.php:79
+#: ../good/custommenu.php:79 ../latestfile/custommenu.php:80
+#: ../qwert/custommenu.php:80
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: ../12345/custommenu.php:84 ../csschange/custommenu.php:85
+#: ../finalexp/custommenu.php:85 ../finaltheme/custommenu.php:84
+#: ../good/custommenu.php:84 ../latestfile/custommenu.php:85
+#: ../qwert/custommenu.php:85
+msgid "Title:"
+msgstr ""
+
+#: ../12345/custommenu.php:89 ../csschange/custommenu.php:90
+#: ../finalexp/custommenu.php:90 ../finaltheme/custommenu.php:89
+#: ../good/custommenu.php:89 ../latestfile/custommenu.php:90
+#: ../qwert/custommenu.php:90
+msgid "Select Menu:"
+msgstr ""
+
+#: ../12345/custommenu.php:100 ../csschange/custommenu.php:101
+#: ../finalexp/custommenu.php:101 ../finaltheme/custommenu.php:100
+#: ../good/custommenu.php:100 ../latestfile/custommenu.php:101
+#: ../qwert/custommenu.php:101
+msgid "Menu Display:"
+msgstr ""
+
+#: ../12345/custommenu.php:103 ../csschange/custommenu.php:104
+#: ../finalexp/custommenu.php:104 ../finaltheme/custommenu.php:103
+#: ../good/custommenu.php:103 ../latestfile/custommenu.php:104
+#: ../qwert/custommenu.php:104
+msgid "No Style"
+msgstr ""
+
+#: ../12345/custommenu.php:105 ../csschange/custommenu.php:106
+#: ../finalexp/custommenu.php:106 ../finaltheme/custommenu.php:105
+#: ../good/custommenu.php:105 ../latestfile/custommenu.php:106
+#: ../qwert/custommenu.php:106
+msgid "TT Default"
+msgstr ""
+
+#: ../12345/custommenu.php:109 ../csschange/custommenu.php:110
+#: ../finalexp/custommenu.php:110 ../finaltheme/custommenu.php:109
+#: ../good/custommenu.php:109 ../latestfile/custommenu.php:110
+#: ../qwert/custommenu.php:110
+msgid "Menu Style:"
+msgstr ""
+
+#: ../12345/custommenu.php:112 ../csschange/custommenu.php:113
+#: ../finalexp/custommenu.php:113 ../finaltheme/custommenu.php:112
+#: ../good/custommenu.php:112 ../latestfile/custommenu.php:113
+#: ../qwert/custommenu.php:113
+msgid "Horizontal Menu"
+msgstr ""
+
+#: ../12345/custommenu.php:114 ../csschange/custommenu.php:115
+#: ../finalexp/custommenu.php:115 ../finaltheme/custommenu.php:114
+#: ../good/custommenu.php:114 ../latestfile/custommenu.php:115
+#: ../qwert/custommenu.php:115
+msgid "Vertical Menu"
+msgstr ""
+
+#: ../12345/custommenu.php:126 ../csschange/custommenu.php:127
+#: ../finalexp/custommenu.php:127 ../finaltheme/custommenu.php:126
+#: ../good/custommenu.php:126 ../latestfile/custommenu.php:127
+#: ../qwert/custommenu.php:127
+msgid "Active Color"
+msgstr ""
+
+#: ../12345/custommenu.php:130 ../csschange/custommenu.php:131
+#: ../finalexp/custommenu.php:131 ../finaltheme/custommenu.php:130
+#: ../good/custommenu.php:130 ../latestfile/custommenu.php:131
+#: ../qwert/custommenu.php:131
+msgid "Hover Color"
+msgstr ""
+
+#: ../12345/custommenu.php:134 ../csschange/custommenu.php:135
+#: ../finalexp/custommenu.php:135 ../finaltheme/custommenu.php:134
+#: ../good/custommenu.php:134 ../latestfile/custommenu.php:135
+#: ../qwert/custommenu.php:135
+msgid "Normal Color"
+msgstr ""
+
+#: ../12345/footer.php:84 ../12345/PageTemplate1.php:610
+#: ../12345/PageTemplate2.php:610 ../csschange/footer.php:83
+#: ../csschange/PageTemplate1.php:573 ../csschange/PageTemplate2.php:573
+#: ../finalexp/footer.php:83 ../finalexp/PageTemplate1.php:573
+#: ../finalexp/PageTemplate2.php:573 ../finaltheme/footer.php:83
+#: ../finaltheme/PageTemplate1.php:573 ../finaltheme/PageTemplate2.php:573
+#: ../good/footer.php:83 ../good/PageTemplate1.php:563
+#: ../good/PageTemplate2.php:563 ../latestfile/footer.php:83
+#: ../latestfile/PageTemplate1.php:573 ../latestfile/PageTemplate2.php:573
+#: ../qwert/footer.php:83 ../qwert/PageTemplate1.php:563
+#: ../qwert/PageTemplate2.php:563
+msgid "Wordpress Theme Designed with"
+msgstr ""
+
+#: ../12345/functions-1.php:22 ../12345/header.php:332
+#: ../12345/PageTemplate1.php:339 ../12345/PageTemplate2.php:339
+#: ../csschange/functions-1.php:23 ../csschange/header.php:133
+#: ../csschange/PageTemplate1.php:304 ../csschange/PageTemplate2.php:304
+#: ../finalexp/functions-1.php:23 ../finalexp/header.php:133
+#: ../finalexp/PageTemplate1.php:304 ../finalexp/PageTemplate2.php:304
+#: ../finaltheme/functions-1.php:23 ../finaltheme/header.php:133
+#: ../finaltheme/PageTemplate1.php:304 ../finaltheme/PageTemplate2.php:304
+#: ../good/functions-1.php:23 ../good/header.php:120
+#: ../good/PageTemplate1.php:294 ../good/PageTemplate2.php:294
+#: ../latestfile/functions-1.php:23 ../latestfile/header.php:297
+#: ../latestfile/PageTemplate1.php:304 ../latestfile/PageTemplate2.php:304
+#: ../qwert/functions-1.php:22 ../qwert/header.php:120
+#: ../qwert/PageTemplate1.php:294 ../qwert/PageTemplate2.php:294
+#: ../twentythirteen/header.php:43 ../twentytwelve/header.php:43
+msgid "Menu"
+msgstr ""
+
+#: ../12345/functions-1.php:29 ../csschange/functions-1.php:31
+#: ../finalexp/functions-1.php:31 ../finaltheme/functions-1.php:31
+#: ../good/functions-1.php:31 ../latestfile/functions-1.php:31
+#: ../qwert/functions-1.php:29
+msgid "Sidebar Options"
+msgstr ""
+
+#: ../12345/functions-1.php:32 ../csschange/functions-1.php:51
+#: ../finalexp/functions-1.php:51 ../finaltheme/functions-1.php:51
+#: ../good/functions-1.php:39 ../latestfile/functions-1.php:39
+#: ../qwert/functions-1.php:32
+msgid "Block Heading Font Size"
+msgstr ""
+
+#: ../12345/functions-1.php:37 ../csschange/functions-1.php:56
+#: ../finalexp/functions-1.php:56 ../finaltheme/functions-1.php:56
+#: ../good/functions-1.php:44 ../latestfile/functions-1.php:44
+#: ../qwert/functions-1.php:37
+msgid "Heading Tag for Block Heading"
+msgstr ""
+
+#: ../12345/functions-1.php:51 ../csschange/functions-1.php:70
+#: ../finalexp/functions-1.php:70 ../finaltheme/functions-1.php:70
+#: ../good/functions-1.php:58 ../latestfile/functions-1.php:58
+#: ../qwert/functions-1.php:51
+msgid "Header Options"
+msgstr ""
+
+#: ../12345/functions-1.php:54 ../csschange/functions-1.php:73
+#: ../finalexp/functions-1.php:73 ../finaltheme/functions-1.php:73
+#: ../good/functions-1.php:61 ../latestfile/functions-1.php:61
+#: ../qwert/functions-1.php:54
+msgid "Display Site Title"
+msgstr ""
+
+#: ../12345/functions-1.php:59 ../csschange/functions-1.php:78
+#: ../finalexp/functions-1.php:78 ../finaltheme/functions-1.php:78
+#: ../good/functions-1.php:66 ../latestfile/functions-1.php:66
+#: ../qwert/functions-1.php:59
+msgid "Title Font Size"
+msgstr ""
+
+#: ../12345/functions-1.php:64 ../csschange/functions-1.php:83
+#: ../finalexp/functions-1.php:83 ../finaltheme/functions-1.php:83
+#: ../good/functions-1.php:71 ../latestfile/functions-1.php:71
+#: ../qwert/functions-1.php:64
+msgid "Heading Tag for Title"
+msgstr ""
+
+#: ../12345/functions-1.php:71 ../csschange/functions-1.php:90
+#: ../finalexp/functions-1.php:90 ../finaltheme/functions-1.php:90
+#: ../good/functions-1.php:78 ../latestfile/functions-1.php:78
+#: ../qwert/functions-1.php:71
+msgid "Display Site Slogan"
+msgstr ""
+
+#: ../12345/functions-1.php:76 ../csschange/functions-1.php:95
+#: ../finalexp/functions-1.php:95 ../finaltheme/functions-1.php:95
+#: ../good/functions-1.php:83 ../latestfile/functions-1.php:83
+#: ../qwert/functions-1.php:76
+msgid "Slogan Font Size"
+msgstr ""
+
+#: ../12345/functions-1.php:81 ../csschange/functions-1.php:100
+#: ../finalexp/functions-1.php:100 ../finaltheme/functions-1.php:100
+#: ../good/functions-1.php:88 ../latestfile/functions-1.php:88
+#: ../qwert/functions-1.php:81
+msgid "Heading Tag for Slogan"
+msgstr ""
+
+#: ../12345/functions-1.php:88 ../csschange/functions-1.php:107
+#: ../finalexp/functions-1.php:107 ../finaltheme/functions-1.php:107
+#: ../good/functions-1.php:95 ../latestfile/functions-1.php:95
+#: ../qwert/functions-1.php:88
+msgid "Slide Show Image 1"
+msgstr ""
+
+#: ../12345/functions-1.php:93 ../csschange/functions-1.php:112
+#: ../finalexp/functions-1.php:112 ../finaltheme/functions-1.php:112
+#: ../good/functions-1.php:100 ../latestfile/functions-1.php:100
+#: ../qwert/functions-1.php:93
+msgid "Slide Show Image 2"
+msgstr ""
+
+#: ../12345/functions-1.php:98 ../csschange/functions-1.php:117
+#: ../finalexp/functions-1.php:117 ../finaltheme/functions-1.php:117
+#: ../good/functions-1.php:105 ../latestfile/functions-1.php:105
+#: ../qwert/functions-1.php:98
+msgid "Slide Show Image 3"
+msgstr ""
+
+#: ../12345/functions-1.php:103 ../csschange/functions-1.php:122
+#: ../finalexp/functions-1.php:122 ../finaltheme/functions-1.php:122
+#: ../good/functions-1.php:110 ../latestfile/functions-1.php:110
+#: ../qwert/functions-1.php:103
+msgid "Slide Show Image 4"
+msgstr ""
+
+#: ../12345/functions-1.php:115 ../csschange/functions-1.php:134
+#: ../finalexp/functions-1.php:134 ../finaltheme/functions-1.php:139
+#: ../good/functions-1.php:122 ../latestfile/functions-1.php:122
+#: ../qwert/functions-1.php:115
+msgid "PostContent Options"
+msgstr ""
+
+#: ../12345/functions-1.php:118 ../csschange/functions-1.php:137
+#: ../finalexp/functions-1.php:137 ../finaltheme/functions-1.php:142
+#: ../good/functions-1.php:125 ../latestfile/functions-1.php:125
+#: ../qwert/functions-1.php:118
+msgid "Number of Featured Posts"
+msgstr ""
+
+#: ../12345/functions-1.php:123 ../csschange/functions-1.php:142
+#: ../finalexp/functions-1.php:142 ../finaltheme/functions-1.php:147
+#: ../good/functions-1.php:130 ../latestfile/functions-1.php:130
+#: ../qwert/functions-1.php:123
+msgid "Number of Columns"
+msgstr ""
+
+#: ../12345/functions-1.php:128 ../csschange/functions-1.php:147
+#: ../finalexp/functions-1.php:147 ../finaltheme/functions-1.php:152
+#: ../good/functions-1.php:135 ../latestfile/functions-1.php:135
+#: ../qwert/functions-1.php:128
+msgid "Display 'Continue reading' link in Posts"
+msgstr ""
+
+#: ../12345/functions-1.php:133 ../csschange/functions-1.php:152
+#: ../finalexp/functions-1.php:152 ../finaltheme/functions-1.php:157
+#: ../good/functions-1.php:140 ../latestfile/functions-1.php:140
+#: ../qwert/functions-1.php:133
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../12345/functions-1.php:138 ../csschange/functions-1.php:157
+#: ../finalexp/functions-1.php:157 ../finaltheme/functions-1.php:162
+#: ../good/functions-1.php:145 ../latestfile/functions-1.php:145
+#: ../qwert/functions-1.php:138
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../12345/functions-1.php:143 ../csschange/functions-1.php:162
+#: ../finalexp/functions-1.php:162 ../finaltheme/functions-1.php:167
+#: ../good/functions-1.php:150 ../latestfile/functions-1.php:150
+#: ../qwert/functions-1.php:143
+msgid "Breadcrumbs Text Separator"
+msgstr ""
+
+#: ../12345/functions-1.php:149 ../csschange/functions-1.php:168
+#: ../finalexp/functions-1.php:168 ../finaltheme/functions-1.php:173
+#: ../good/functions-1.php:156 ../latestfile/functions-1.php:156
+#: ../qwert/functions-1.php:149
+msgid "Featured Image Width(in px.)"
+msgstr ""
+
+#: ../12345/functions-1.php:154 ../csschange/functions-1.php:173
+#: ../finalexp/functions-1.php:173 ../finaltheme/functions-1.php:178
+#: ../good/functions-1.php:161 ../latestfile/functions-1.php:161
+#: ../qwert/functions-1.php:154
+msgid "Featured Image Height(in px.)"
+msgstr ""
+
+#: ../12345/functions-1.php:167 ../csschange/functions-1.php:186
+#: ../finalexp/functions-1.php:186 ../finaltheme/functions-1.php:191
+#: ../good/functions-1.php:174 ../latestfile/functions-1.php:174
+#: ../qwert/functions-1.php:167
+msgid "Footer Options"
+msgstr ""
+
+#: ../12345/functions-1.php:170 ../csschange/functions-1.php:189
+#: ../finalexp/functions-1.php:189 ../finaltheme/functions-1.php:194
+#: ../good/functions-1.php:177 ../latestfile/functions-1.php:177
+#: ../qwert/functions-1.php:170
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: ../12345/functions-1.php:175 ../csschange/functions-1.php:194
+#: ../finalexp/functions-1.php:194 ../finaltheme/functions-1.php:199
+#: ../good/functions-1.php:182 ../latestfile/functions-1.php:182
+#: ../qwert/functions-1.php:175
+msgid "Footer Copyright URL"
+msgstr ""
+
+#: ../12345/functions-1.php:180 ../csschange/functions-1.php:199
+#: ../finalexp/functions-1.php:199 ../finaltheme/functions-1.php:204
+#: ../good/functions-1.php:187 ../latestfile/functions-1.php:187
+#: ../qwert/functions-1.php:180
+msgid "Display Footer Copyright"
+msgstr ""
+
+#: ../12345/functions-1.php:185 ../csschange/functions-1.php:204
+#: ../finalexp/functions-1.php:204 ../finaltheme/functions-1.php:209
+#: ../good/functions-1.php:192 ../latestfile/functions-1.php:192
+#: ../qwert/functions-1.php:185
+msgid "Footer Copyright Font Size"
+msgstr ""
+
+#: ../12345/functions-1.php:190 ../csschange/functions-1.php:209
+#: ../finalexp/functions-1.php:209 ../finaltheme/functions-1.php:214
+#: ../good/functions-1.php:197 ../latestfile/functions-1.php:197
+#: ../qwert/functions-1.php:190
+msgid "Footer Designed By Font Size"
+msgstr ""
+
+#: ../12345/functions-1.php:195 ../csschange/functions-1.php:214
+#: ../finalexp/functions-1.php:214 ../finaltheme/functions-1.php:219
+#: ../good/functions-1.php:202 ../latestfile/functions-1.php:202
+#: ../qwert/functions-1.php:195
+msgid "Footer Designed By Link Font Size"
+msgstr ""
+
+#: ../12345/functions-1.php:200 ../csschange/functions-1.php:219
+#: ../finalexp/functions-1.php:219 ../finaltheme/functions-1.php:224
+#: ../good/functions-1.php:207 ../latestfile/functions-1.php:207
+#: ../qwert/functions-1.php:200
+msgid "RSS Icon"
+msgstr ""
+
+#: ../12345/functions-1.php:205 ../csschange/functions-1.php:224
+#: ../finalexp/functions-1.php:224 ../finaltheme/functions-1.php:229
+#: ../good/functions-1.php:212 ../latestfile/functions-1.php:212
+#: ../qwert/functions-1.php:205
+msgid "Display RSS Icon"
+msgstr ""
+
+#: ../12345/functions-1.php:218 ../csschange/functions-1.php:237
+#: ../finalexp/functions-1.php:237 ../finaltheme/functions-1.php:242
+#: ../good/functions-1.php:225 ../latestfile/functions-1.php:225
+#: ../qwert/functions-1.php:218
+msgid "Display Post Title"
+msgstr ""
+
+#: ../12345/functions-1.php:231 ../csschange/functions-1.php:250
+#: ../finalexp/functions-1.php:250 ../finaltheme/functions-1.php:255
+#: ../good/functions-1.php:238 ../latestfile/functions-1.php:238
+#: ../qwert/functions-1.php:231
+msgid "Display Page Title"
+msgstr ""
+
+#: ../12345/functions-1.php:244 ../csschange/functions-1.php:263
+#: ../finalexp/functions-1.php:263 ../finaltheme/functions-1.php:268
+#: ../good/functions-1.php:251 ../latestfile/functions-1.php:251
+#: ../qwert/functions-1.php:244
+msgid "Google Analytics"
+msgstr ""
+
+#: ../12345/functions-1.php:249 ../csschange/functions-1.php:268
+#: ../finalexp/functions-1.php:268 ../finaltheme/functions-1.php:273
+#: ../good/functions-1.php:256 ../latestfile/functions-1.php:256
+#: ../qwert/functions-1.php:249
+msgid "Display All Page Titles"
+msgstr ""
+
+#: ../12345/functions-1.php:254 ../csschange/functions-1.php:273
+#: ../finalexp/functions-1.php:273 ../finaltheme/functions-1.php:278
+#: ../good/functions-1.php:261 ../latestfile/functions-1.php:261
+#: ../qwert/functions-1.php:254
+msgid "Display All Post Titles"
+msgstr ""
+
+#: ../12345/functions-1.php:259 ../csschange/functions-1.php:278
+#: ../finalexp/functions-1.php:278 ../finaltheme/functions-1.php:283
+#: ../good/functions-1.php:266 ../latestfile/functions-1.php:266
+#: ../qwert/functions-1.php:259
+msgid "Display Post Date"
+msgstr ""
+
+#: ../12345/functions-1.php:264 ../csschange/functions-1.php:283
+#: ../finalexp/functions-1.php:283 ../finaltheme/functions-1.php:288
+#: ../good/functions-1.php:271 ../latestfile/functions-1.php:271
+#: ../qwert/functions-1.php:264
+msgid "Display Author Name"
+msgstr ""
+
+#: ../12345/functions-1.php:269 ../csschange/functions-1.php:288
+#: ../finalexp/functions-1.php:288 ../finaltheme/functions-1.php:293
+#: ../good/functions-1.php:276 ../latestfile/functions-1.php:276
+#: ../qwert/functions-1.php:269
+msgid "Show Post Category"
+msgstr ""
+
+#: ../12345/functions-1.php:274 ../csschange/functions-1.php:293
+#: ../finalexp/functions-1.php:293 ../finaltheme/functions-1.php:298
+#: ../good/functions-1.php:281 ../latestfile/functions-1.php:281
+#: ../qwert/functions-1.php:274
+msgid "Display Back To Top Button"
+msgstr ""
+
+#: ../12345/functions-1.php:279 ../csschange/functions-1.php:298
+#: ../finalexp/functions-1.php:298 ../finaltheme/functions-1.php:303
+#: ../good/functions-1.php:286 ../latestfile/functions-1.php:286
+#: ../qwert/functions-1.php:279
+msgid "Back To Top Icon"
+msgstr ""
+
+#: ../12345/functions-1.php:284 ../csschange/functions-1.php:303
+#: ../finalexp/functions-1.php:303 ../finaltheme/functions-1.php:308
+#: ../good/functions-1.php:291 ../latestfile/functions-1.php:291
+#: ../qwert/functions-1.php:284
+msgid "Read More"
+msgstr ""
+
+#: ../12345/functions-1.php:288 ../csschange/functions-1.php:307
+#: ../finalexp/functions-1.php:307 ../finaltheme/functions-1.php:312
+#: ../good/functions-1.php:295 ../latestfile/functions-1.php:295
+#: ../qwert/functions-1.php:288
+msgid "Read More..."
+msgstr ""
+
+#: ../12345/functions.php:120 ../csschange/functions.php:123
+#: ../finalexp/functions.php:123 ../finaltheme/functions.php:120
+#: ../good/functions.php:120 ../latestfile/functions.php:120
+#: ../qwert/functions.php:120
+msgid "Wheel"
+msgstr ""
+
+#: ../12345/functions.php:126 ../csschange/functions.php:129
+#: ../finalexp/functions.php:129 ../finaltheme/functions.php:126
+#: ../good/functions.php:126 ../latestfile/functions.php:126
+#: ../qwert/functions.php:126
+msgid "Shore"
+msgstr ""
+
+#: ../12345/functions.php:132 ../csschange/functions.php:135
+#: ../finalexp/functions.php:135 ../finaltheme/functions.php:132
+#: ../good/functions.php:132 ../latestfile/functions.php:132
+#: ../qwert/functions.php:132
+msgid "Trolley"
+msgstr ""
+
+#: ../12345/functions.php:138 ../csschange/functions.php:141
+#: ../finalexp/functions.php:141 ../finaltheme/functions.php:138
+#: ../good/functions.php:138 ../latestfile/functions.php:138
+#: ../qwert/functions.php:138
+msgid "Pine Cone"
+msgstr ""
+
+#: ../12345/functions.php:144 ../csschange/functions.php:147
+#: ../finalexp/functions.php:147 ../finaltheme/functions.php:144
+#: ../good/functions.php:144 ../latestfile/functions.php:144
+#: ../qwert/functions.php:144
+msgid "Chessboard"
+msgstr ""
+
+#: ../12345/functions.php:150 ../csschange/functions.php:153
+#: ../finalexp/functions.php:153 ../finaltheme/functions.php:150
+#: ../good/functions.php:150 ../latestfile/functions.php:150
+#: ../qwert/functions.php:150
+msgid "Lanterns"
+msgstr ""
+
+#: ../12345/functions.php:156 ../csschange/functions.php:159
+#: ../finalexp/functions.php:159 ../finaltheme/functions.php:156
+#: ../good/functions.php:156 ../latestfile/functions.php:156
+#: ../qwert/functions.php:156
+msgid "Willow"
+msgstr ""
+
+#: ../12345/functions.php:162 ../csschange/functions.php:165
+#: ../finalexp/functions.php:165 ../finaltheme/functions.php:162
+#: ../good/functions.php:162 ../latestfile/functions.php:162
+#: ../qwert/functions.php:162
+msgid "Hanoi Plant"
+msgstr ""
+
+#: ../12345/functions.php:180 ../csschange/functions.php:183
+#: ../finalexp/functions.php:183 ../finaltheme/functions.php:180
+#: ../good/functions.php:180 ../latestfile/functions.php:180
+#: ../qwert/functions.php:180 ../twentythirteen/content-aside.php:13
+#: ../twentythirteen/content-audio.php:24
+#: ../twentythirteen/content-gallery.php:24
+#: ../twentythirteen/content-image.php:23
+#: ../twentythirteen/content-link.php:24
+#: ../twentythirteen/content-quote.php:13
+#: ../twentythirteen/content-status.php:13
+#: ../twentythirteen/content-video.php:23 ../twentythirteen/content.php:41
+#: ../twentytwelve/content-aside.php:15 ../twentytwelve/content-image.php:13
+#: ../twentytwelve/content-link.php:14 ../twentytwelve/content-quote.php:13
+#: ../twentytwelve/content-status.php:31 ../twentytwelve/content.php:41
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../12345/functions.php:228 ../12345/single.php:64
+#: ../csschange/functions.php:231 ../csschange/single.php:66
+#: ../finalexp/functions.php:231 ../finalexp/single.php:66
+#: ../finaltheme/functions.php:228 ../finaltheme/single.php:66
+#: ../good/functions.php:228 ../good/single.php:63
+#: ../latestfile/functions.php:228 ../latestfile/single.php:66
+#: ../qwert/functions.php:228 ../qwert/single.php:63
+#: ../twentythirteen/functions.php:308 ../twentytwelve/functions.php:288
+#: ../twentytwelve/single.php:20
+msgid "Post navigation"
+msgstr ""
+
+#: ../12345/functions.php:229 ../csschange/functions.php:232
+#: ../finalexp/functions.php:232 ../finaltheme/functions.php:229
+#: ../good/functions.php:229 ../latestfile/functions.php:229
+#: ../qwert/functions.php:229 ../twentythirteen/functions.php:276
+#: ../twentytwelve/functions.php:289
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../12345/functions.php:230 ../csschange/functions.php:233
+#: ../finalexp/functions.php:233 ../finaltheme/functions.php:230
+#: ../good/functions.php:230 ../latestfile/functions.php:230
+#: ../qwert/functions.php:230 ../twentythirteen/functions.php:280
+#: ../twentytwelve/functions.php:290
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../12345/functions.php:299 ../csschange/functions.php:302
+#: ../finalexp/functions.php:302 ../finaltheme/functions.php:299
+#: ../good/functions.php:299 ../latestfile/functions.php:299
+#: ../qwert/functions.php:299 ../twentytwelve/functions.php:317
+msgid "Pingback:"
+msgstr ""
+
+#: ../12345/functions.php:299 ../12345/functions.php:328
+#: ../csschange/functions.php:302 ../csschange/functions.php:331
+#: ../finalexp/functions.php:302 ../finalexp/functions.php:331
+#: ../finaltheme/functions.php:299 ../finaltheme/functions.php:328
+#: ../good/functions.php:299 ../good/functions.php:328
+#: ../latestfile/functions.php:299 ../latestfile/functions.php:328
+#: ../qwert/functions.php:299 ../qwert/functions.php:328
+#: ../twentythirteen/content-aside.php:20
+#: ../twentythirteen/content-aside.php:28
+#: ../twentythirteen/content-audio.php:31
+#: ../twentythirteen/content-chat.php:29
+#: ../twentythirteen/content-gallery.php:39
+#: ../twentythirteen/content-image.php:35
+#: ../twentythirteen/content-link.php:19
+#: ../twentythirteen/content-quote.php:25
+#: ../twentythirteen/content-status.php:19
+#: ../twentythirteen/content-video.php:35 ../twentythirteen/content.php:31
+#: ../twentythirteen/image.php:44 ../twentythirteen/page.php:39
+#: ../twentytwelve/content-aside.php:26 ../twentytwelve/content-image.php:26
+#: ../twentytwelve/content-link.php:24 ../twentytwelve/content-page.php:24
+#: ../twentytwelve/content-quote.php:23 ../twentytwelve/content-status.php:40
+#: ../twentytwelve/content.php:48 ../twentytwelve/functions.php:349
+#: ../twentytwelve/image.php:37
+msgid "Edit"
+msgstr ""
+
+#: ../12345/functions.php:317 ../csschange/functions.php:320
+#: ../finalexp/functions.php:320 ../finaltheme/functions.php:317
+#: ../good/functions.php:317 ../latestfile/functions.php:317
+#: ../qwert/functions.php:317
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#: ../12345/functions.php:323 ../csschange/functions.php:326
+#: ../finalexp/functions.php:326 ../finaltheme/functions.php:323
+#: ../good/functions.php:323 ../latestfile/functions.php:323
+#: ../qwert/functions.php:323 ../twentytwelve/functions.php:338
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../12345/functions.php:332 ../csschange/functions.php:335
+#: ../finalexp/functions.php:335 ../finaltheme/functions.php:332
+#: ../good/functions.php:332 ../latestfile/functions.php:332
+#: ../qwert/functions.php:332 ../twentytwelve/functions.php:344
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../12345/functions.php:341 ../csschange/functions.php:344
+#: ../finalexp/functions.php:344 ../finaltheme/functions.php:341
+#: ../good/functions.php:341 ../latestfile/functions.php:341
+#: ../qwert/functions.php:341
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: ../12345/functions.php:369 ../12345/functions.php:390
+#: ../12345/functions.php:403 ../12345/functions.php:424
+#: ../12345/functions.php:436 ../12345/functions.php:457
+#: ../12345/functions.php:470 ../12345/functions.php:491
+#: ../csschange/functions.php:372 ../csschange/functions.php:393
+#: ../csschange/functions.php:406 ../csschange/functions.php:427
+#: ../csschange/functions.php:439 ../csschange/functions.php:460
+#: ../csschange/functions.php:473 ../csschange/functions.php:494
+#: ../finalexp/functions.php:372 ../finalexp/functions.php:393
+#: ../finalexp/functions.php:406 ../finalexp/functions.php:427
+#: ../finalexp/functions.php:439 ../finalexp/functions.php:460
+#: ../finalexp/functions.php:473 ../finalexp/functions.php:494
+#: ../finaltheme/functions.php:369 ../finaltheme/functions.php:390
+#: ../finaltheme/functions.php:403 ../finaltheme/functions.php:424
+#: ../finaltheme/functions.php:436 ../finaltheme/functions.php:457
+#: ../finaltheme/functions.php:470 ../finaltheme/functions.php:491
+#: ../good/functions.php:369 ../good/functions.php:390
+#: ../good/functions.php:403 ../good/functions.php:424
+#: ../good/functions.php:436 ../good/functions.php:457
+#: ../good/functions.php:470 ../good/functions.php:491
+#: ../latestfile/functions.php:369 ../latestfile/functions.php:390
+#: ../latestfile/functions.php:403 ../latestfile/functions.php:424
+#: ../latestfile/functions.php:436 ../latestfile/functions.php:457
+#: ../latestfile/functions.php:470 ../latestfile/functions.php:491
+#: ../qwert/functions.php:369 ../qwert/functions.php:390
+#: ../qwert/functions.php:403 ../qwert/functions.php:424
+#: ../qwert/functions.php:436 ../qwert/functions.php:457
+#: ../qwert/functions.php:470 ../qwert/functions.php:491
+msgid "Posted on"
+msgstr ""
+
+#: ../12345/functions.php:369 ../12345/functions.php:403
+#: ../12345/functions.php:436 ../12345/functions.php:470
+#: ../csschange/functions.php:372 ../csschange/functions.php:406
+#: ../csschange/functions.php:439 ../csschange/functions.php:473
+#: ../finalexp/functions.php:372 ../finalexp/functions.php:406
+#: ../finalexp/functions.php:439 ../finalexp/functions.php:473
+#: ../finaltheme/functions.php:369 ../finaltheme/functions.php:403
+#: ../finaltheme/functions.php:436 ../finaltheme/functions.php:470
+#: ../good/functions.php:369 ../good/functions.php:403
+#: ../good/functions.php:436 ../good/functions.php:470
+#: ../latestfile/functions.php:369 ../latestfile/functions.php:403
+#: ../latestfile/functions.php:436 ../latestfile/functions.php:470
+#: ../qwert/functions.php:369 ../qwert/functions.php:403
+#: ../qwert/functions.php:436 ../qwert/functions.php:470
+msgid "by"
+msgstr ""
+
+#: ../12345/functions.php:369 ../12345/functions.php:403
+#: ../12345/functions.php:424 ../12345/functions.php:436
+#: ../12345/functions.php:470 ../12345/functions.php:491
+#: ../csschange/functions.php:372 ../csschange/functions.php:406
+#: ../csschange/functions.php:427 ../csschange/functions.php:439
+#: ../csschange/functions.php:473 ../csschange/functions.php:494
+#: ../finalexp/functions.php:372 ../finalexp/functions.php:406
+#: ../finalexp/functions.php:427 ../finalexp/functions.php:439
+#: ../finalexp/functions.php:473 ../finalexp/functions.php:494
+#: ../finaltheme/functions.php:369 ../finaltheme/functions.php:403
+#: ../finaltheme/functions.php:424 ../finaltheme/functions.php:436
+#: ../finaltheme/functions.php:470 ../finaltheme/functions.php:491
+#: ../good/functions.php:369 ../good/functions.php:403
+#: ../good/functions.php:424 ../good/functions.php:436
+#: ../good/functions.php:470 ../good/functions.php:491
+#: ../latestfile/functions.php:369 ../latestfile/functions.php:403
+#: ../latestfile/functions.php:424 ../latestfile/functions.php:436
+#: ../latestfile/functions.php:470 ../latestfile/functions.php:491
+#: ../qwert/functions.php:369 ../qwert/functions.php:403
+#: ../qwert/functions.php:424 ../qwert/functions.php:436
+#: ../qwert/functions.php:470 ../qwert/functions.php:491
+msgid "<span class=\"meta\"> "
+msgstr ""
+
+#: ../12345/functions.php:380 ../12345/functions.php:414
+#: ../12345/functions.php:447 ../12345/functions.php:481
+#: ../csschange/functions.php:383 ../csschange/functions.php:417
+#: ../csschange/functions.php:450 ../csschange/functions.php:484
+#: ../finalexp/functions.php:383 ../finalexp/functions.php:417
+#: ../finalexp/functions.php:450 ../finalexp/functions.php:484
+#: ../finaltheme/functions.php:380 ../finaltheme/functions.php:414
+#: ../finaltheme/functions.php:447 ../finaltheme/functions.php:481
+#: ../good/functions.php:380 ../good/functions.php:414
+#: ../good/functions.php:447 ../good/functions.php:481
+#: ../latestfile/functions.php:380 ../latestfile/functions.php:414
+#: ../latestfile/functions.php:447 ../latestfile/functions.php:481
+#: ../qwert/functions.php:380 ../qwert/functions.php:414
+#: ../qwert/functions.php:447 ../qwert/functions.php:481
+msgid "Posted by"
+msgstr ""
+
+#: ../12345/functions.php:380 ../12345/functions.php:414
+#: ../12345/functions.php:447 ../12345/functions.php:481
+#: ../csschange/functions.php:383 ../csschange/functions.php:417
+#: ../csschange/functions.php:450 ../csschange/functions.php:484
+#: ../finalexp/functions.php:383 ../finalexp/functions.php:417
+#: ../finalexp/functions.php:450 ../finalexp/functions.php:484
+#: ../finaltheme/functions.php:380 ../finaltheme/functions.php:414
+#: ../finaltheme/functions.php:447 ../finaltheme/functions.php:481
+#: ../good/functions.php:380 ../good/functions.php:414
+#: ../good/functions.php:447 ../good/functions.php:481
+#: ../latestfile/functions.php:380 ../latestfile/functions.php:414
+#: ../latestfile/functions.php:447 ../latestfile/functions.php:481
+#: ../qwert/functions.php:380 ../qwert/functions.php:414
+#: ../qwert/functions.php:447 ../qwert/functions.php:481
+msgid "<span class=\"meta-sep\"> "
+msgstr ""
+
+#: ../12345/functions.php:390 ../12345/functions.php:457
+#: ../csschange/functions.php:393 ../csschange/functions.php:460
+#: ../finalexp/functions.php:393 ../finalexp/functions.php:460
+#: ../finaltheme/functions.php:390 ../finaltheme/functions.php:457
+#: ../good/functions.php:390 ../good/functions.php:457
+#: ../latestfile/functions.php:390 ../latestfile/functions.php:457
+#: ../qwert/functions.php:390 ../qwert/functions.php:457
+msgid "<span class=\"meta\">  "
+msgstr ""
+
+#: ../12345/functions.php:639 ../12345/functions.php:644
+#: ../12345/functions.php:2673 ../csschange/functions.php:642
+#: ../csschange/functions.php:647 ../csschange/functions.php:2676
+#: ../finalexp/functions.php:642 ../finalexp/functions.php:647
+#: ../finalexp/functions.php:2676 ../finaltheme/functions.php:639
+#: ../finaltheme/functions.php:644 ../finaltheme/functions.php:2673
+#: ../good/functions.php:639 ../good/functions.php:644
+#: ../good/functions.php:2673 ../latestfile/functions.php:639
+#: ../latestfile/functions.php:644 ../latestfile/functions.php:2673
+#: ../qwert/functions.php:639 ../qwert/functions.php:644
+#: ../qwert/functions.php:2673
+msgid "Home"
+msgstr ""
+
+#: ../12345/functions.php:1030 ../12345/functions.php:2565
+#: ../csschange/functions.php:1033 ../csschange/functions.php:2568
+#: ../finalexp/functions.php:1033 ../finalexp/functions.php:2568
+#: ../finaltheme/functions.php:1030 ../finaltheme/functions.php:2565
+#: ../good/functions.php:1030 ../good/functions.php:2565
+#: ../latestfile/functions.php:1030 ../latestfile/functions.php:2565
+#: ../qwert/functions.php:1030 ../qwert/functions.php:2565
+msgid "Name"
+msgstr ""
+
+#: ../12345/functions.php:1032 ../csschange/functions.php:1035
+#: ../finalexp/functions.php:1035 ../finaltheme/functions.php:1032
+#: ../good/functions.php:1032 ../latestfile/functions.php:1032
+#: ../qwert/functions.php:1032
+msgid "Email"
+msgstr ""
+
+#: ../12345/functions.php:1034 ../csschange/functions.php:1037
+#: ../finalexp/functions.php:1037 ../finaltheme/functions.php:1034
+#: ../good/functions.php:1034 ../latestfile/functions.php:1034
+#: ../qwert/functions.php:1034
+msgid "Website"
+msgstr ""
+
+#: ../12345/functions.php:1038 ../csschange/functions.php:1041
+#: ../finalexp/functions.php:1041 ../finaltheme/functions.php:1038
+#: ../good/functions.php:1038 ../latestfile/functions.php:1038
+#: ../qwert/functions.php:1038
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../12345/functions.php:1042 ../csschange/functions.php:1045
+#: ../finalexp/functions.php:1045 ../finaltheme/functions.php:1042
+#: ../good/functions.php:1042 ../latestfile/functions.php:1042
+#: ../qwert/functions.php:1042
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../12345/functions.php:1043 ../csschange/functions.php:1046
+#: ../finalexp/functions.php:1046 ../finaltheme/functions.php:1043
+#: ../good/functions.php:1043 ../latestfile/functions.php:1043
+#: ../qwert/functions.php:1043
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../12345/functions.php:1044 ../csschange/functions.php:1047
+#: ../finalexp/functions.php:1047 ../finaltheme/functions.php:1044
+#: ../good/functions.php:1044 ../latestfile/functions.php:1044
+#: ../qwert/functions.php:1044
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../12345/functions.php:1045 ../csschange/functions.php:1048
+#: ../finalexp/functions.php:1048 ../finaltheme/functions.php:1045
+#: ../good/functions.php:1045 ../latestfile/functions.php:1045
+#: ../qwert/functions.php:1045
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: ../12345/functions.php:1048 ../csschange/functions.php:1051
+#: ../finalexp/functions.php:1051 ../finaltheme/functions.php:1048
+#: ../good/functions.php:1048 ../latestfile/functions.php:1048
+#: ../qwert/functions.php:1048
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../12345/functions.php:1049 ../csschange/functions.php:1052
+#: ../finalexp/functions.php:1052 ../finaltheme/functions.php:1049
+#: ../good/functions.php:1049 ../latestfile/functions.php:1049
+#: ../qwert/functions.php:1049
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../12345/functions.php:1050 ../csschange/functions.php:1053
+#: ../finalexp/functions.php:1053 ../finaltheme/functions.php:1050
+#: ../good/functions.php:1050 ../latestfile/functions.php:1050
+#: ../qwert/functions.php:1050
+msgid "Cancel reply"
+msgstr ""
+
+#: ../12345/functions.php:1051 ../csschange/functions.php:1054
+#: ../finalexp/functions.php:1054 ../finaltheme/functions.php:1051
+#: ../good/functions.php:1051 ../latestfile/functions.php:1051
+#: ../qwert/functions.php:1051
+msgid "Post Comment"
+msgstr ""
+
+#: ../12345/functions.php:1199 ../12345/functions.php:2809
+#: ../csschange/functions.php:1202 ../csschange/functions.php:2812
+#: ../finalexp/functions.php:1202 ../finalexp/functions.php:2812
+#: ../finaltheme/functions.php:1199 ../finaltheme/functions.php:2809
+#: ../good/functions.php:1199 ../good/functions.php:2809
+#: ../latestfile/functions.php:1199 ../latestfile/functions.php:2809
+#: ../qwert/functions.php:1199 ../qwert/functions.php:2809
+msgid "Theme Options"
+msgstr ""
+
+#: ../12345/functions.php:1242 ../csschange/functions.php:1245
+#: ../finalexp/functions.php:1245 ../finaltheme/functions.php:1242
+#: ../good/functions.php:1242 ../latestfile/functions.php:1242
+#: ../qwert/functions.php:1242
+msgid "Select this image!"
+msgstr ""
+
+#: ../12345/functions.php:1329 ../12345/functions.php:1522
+#: ../12345/functions.php:2005 ../csschange/functions.php:1332
+#: ../csschange/functions.php:1525 ../csschange/functions.php:2008
+#: ../finalexp/functions.php:1332 ../finalexp/functions.php:1525
+#: ../finalexp/functions.php:2008 ../finaltheme/functions.php:1329
+#: ../finaltheme/functions.php:1522 ../finaltheme/functions.php:2005
+#: ../good/functions.php:1329 ../good/functions.php:1522
+#: ../good/functions.php:2005 ../latestfile/functions.php:1329
+#: ../latestfile/functions.php:1522 ../latestfile/functions.php:2005
+#: ../qwert/functions.php:1329 ../qwert/functions.php:1522
+#: ../qwert/functions.php:2005
+msgid "Upload"
+msgstr ""
+
+#: ../12345/functions.php:1336 ../12345/functions.php:1396
+#: ../12345/functions.php:1454 ../12345/functions.php:1531
+#: ../12345/functions.php:1729 ../12345/functions.php:1940
+#: ../12345/functions.php:2014 ../csschange/functions.php:1339
+#: ../csschange/functions.php:1399 ../csschange/functions.php:1457
+#: ../csschange/functions.php:1534 ../csschange/functions.php:1732
+#: ../csschange/functions.php:1943 ../csschange/functions.php:2017
+#: ../finalexp/functions.php:1339 ../finalexp/functions.php:1399
+#: ../finalexp/functions.php:1457 ../finalexp/functions.php:1534
+#: ../finalexp/functions.php:1732 ../finalexp/functions.php:1943
+#: ../finalexp/functions.php:2017 ../finaltheme/functions.php:1336
+#: ../finaltheme/functions.php:1396 ../finaltheme/functions.php:1454
+#: ../finaltheme/functions.php:1531 ../finaltheme/functions.php:1729
+#: ../finaltheme/functions.php:1940 ../finaltheme/functions.php:2014
+#: ../good/functions.php:1336 ../good/functions.php:1396
+#: ../good/functions.php:1454 ../good/functions.php:1531
+#: ../good/functions.php:1729 ../good/functions.php:1940
+#: ../good/functions.php:2014 ../latestfile/functions.php:1336
+#: ../latestfile/functions.php:1396 ../latestfile/functions.php:1454
+#: ../latestfile/functions.php:1531 ../latestfile/functions.php:1729
+#: ../latestfile/functions.php:1940 ../latestfile/functions.php:2014
+#: ../qwert/functions.php:1336 ../qwert/functions.php:1396
+#: ../qwert/functions.php:1454 ../qwert/functions.php:1531
+#: ../qwert/functions.php:1729 ../qwert/functions.php:1940
+#: ../qwert/functions.php:2014
+msgid "Save Changes"
+msgstr ""
+
+#: ../12345/functions.php:1556 ../csschange/functions.php:1559
+#: ../finalexp/functions.php:1559 ../finaltheme/functions.php:1556
+#: ../good/functions.php:1556 ../latestfile/functions.php:1556
+#: ../qwert/functions.php:1556
+msgid "Site Title Color"
+msgstr ""
+
+#: ../12345/functions.php:1579 ../csschange/functions.php:1582
+#: ../finalexp/functions.php:1582 ../finaltheme/functions.php:1579
+#: ../good/functions.php:1579 ../latestfile/functions.php:1579
+#: ../qwert/functions.php:1579
+msgid "Site Slogan Color"
+msgstr ""
+
+#: ../12345/functions.php:1604 ../csschange/functions.php:1607
+#: ../finalexp/functions.php:1607 ../finaltheme/functions.php:1604
+#: ../good/functions.php:1604 ../latestfile/functions.php:1604
+#: ../qwert/functions.php:1604
+msgid "Block Heading Color"
+msgstr ""
+
+#: ../12345/functions.php:1628 ../csschange/functions.php:1631
+#: ../finalexp/functions.php:1631 ../finaltheme/functions.php:1628
+#: ../good/functions.php:1628 ../latestfile/functions.php:1628
+#: ../qwert/functions.php:1628
+msgid "Sidebar Menu Heading Color"
+msgstr ""
+
+#: ../12345/functions.php:1654 ../csschange/functions.php:1657
+#: ../finalexp/functions.php:1657 ../finaltheme/functions.php:1654
+#: ../good/functions.php:1654 ../latestfile/functions.php:1654
+#: ../qwert/functions.php:1654
+msgid "Footer Copyright Color"
+msgstr ""
+
+#: ../12345/functions.php:1677 ../csschange/functions.php:1680
+#: ../finalexp/functions.php:1680 ../finaltheme/functions.php:1677
+#: ../good/functions.php:1677 ../latestfile/functions.php:1677
+#: ../qwert/functions.php:1677
+msgid "Footer Designed By Color"
+msgstr ""
+
+#: ../12345/functions.php:1702 ../csschange/functions.php:1705
+#: ../finalexp/functions.php:1705 ../finaltheme/functions.php:1702
+#: ../good/functions.php:1702 ../latestfile/functions.php:1702
+#: ../qwert/functions.php:1702
+msgid "Footer Designed By Link Color"
+msgstr ""
+
+#: ../12345/functions.php:1749 ../csschange/functions.php:1752
+#: ../finalexp/functions.php:1752 ../finaltheme/functions.php:1749
+#: ../good/functions.php:1749 ../latestfile/functions.php:1749
+#: ../qwert/functions.php:1749
+msgid "Google Docs Viewer"
+msgstr ""
+
+#: ../12345/functions.php:1761 ../csschange/functions.php:1764
+#: ../finalexp/functions.php:1764 ../finaltheme/functions.php:1761
+#: ../good/functions.php:1761 ../latestfile/functions.php:1761
+#: ../qwert/functions.php:1761
+msgid "Displaying Related Posts"
+msgstr ""
+
+#: ../12345/functions.php:1773 ../csschange/functions.php:1776
+#: ../finalexp/functions.php:1776 ../finaltheme/functions.php:1773
+#: ../good/functions.php:1773 ../latestfile/functions.php:1773
+#: ../qwert/functions.php:1773
+msgid "Google AdSense"
+msgstr ""
+
+#: ../12345/functions.php:1785 ../csschange/functions.php:1788
+#: ../finalexp/functions.php:1788 ../finaltheme/functions.php:1785
+#: ../good/functions.php:1785 ../latestfile/functions.php:1785
+#: ../qwert/functions.php:1785
+msgid "Google Chart"
+msgstr ""
+
+#: ../12345/functions.php:1797 ../csschange/functions.php:1800
+#: ../finalexp/functions.php:1800 ../finaltheme/functions.php:1797
+#: ../good/functions.php:1797 ../latestfile/functions.php:1797
+#: ../qwert/functions.php:1797
+msgid "TweetMeme Button"
+msgstr ""
+
+#: ../12345/functions.php:1809 ../csschange/functions.php:1812
+#: ../finalexp/functions.php:1812 ../finaltheme/functions.php:1809
+#: ../good/functions.php:1809 ../latestfile/functions.php:1809
+#: ../qwert/functions.php:1809
+msgid "Google Map"
+msgstr ""
+
+#: ../12345/functions.php:1821 ../csschange/functions.php:1824
+#: ../finalexp/functions.php:1824 ../finaltheme/functions.php:1821
+#: ../good/functions.php:1821 ../latestfile/functions.php:1821
+#: ../qwert/functions.php:1821
+msgid "YouTube"
+msgstr ""
+
+#: ../12345/functions.php:1833 ../csschange/functions.php:1836
+#: ../finalexp/functions.php:1836 ../finaltheme/functions.php:1833
+#: ../good/functions.php:1833 ../latestfile/functions.php:1833
+#: ../qwert/functions.php:1833
+msgid "Private Content"
+msgstr ""
+
+#: ../12345/functions.php:1845 ../csschange/functions.php:1848
+#: ../finalexp/functions.php:1848 ../finaltheme/functions.php:1845
+#: ../good/functions.php:1845 ../latestfile/functions.php:1845
+#: ../qwert/functions.php:1845
+msgid "PayPal"
+msgstr ""
+
+#: ../12345/functions.php:1857 ../csschange/functions.php:1860
+#: ../finalexp/functions.php:1860 ../finaltheme/functions.php:1857
+#: ../good/functions.php:1857 ../latestfile/functions.php:1857
+#: ../qwert/functions.php:1857
+msgid "Contact Us Form"
+msgstr ""
+
+#: ../12345/functions.php:1882 ../csschange/functions.php:1885
+#: ../finalexp/functions.php:1885 ../finaltheme/functions.php:1882
+#: ../good/functions.php:1882 ../latestfile/functions.php:1882
+#: ../qwert/functions.php:1882
+msgid "To use CONTACT FORM, apply [contact_us_form]"
+msgstr ""
+
+#: ../12345/functions.php:1886 ../csschange/functions.php:1889
+#: ../finalexp/functions.php:1889 ../finaltheme/functions.php:1886
+#: ../good/functions.php:1886 ../latestfile/functions.php:1886
+#: ../qwert/functions.php:1886
+msgid "Admin Email Address"
+msgstr ""
+
+#: ../12345/functions.php:1895 ../csschange/functions.php:1898
+#: ../finalexp/functions.php:1898 ../finaltheme/functions.php:1895
+#: ../good/functions.php:1895 ../latestfile/functions.php:1895
+#: ../qwert/functions.php:1895
+msgid "Field Name:"
+msgstr ""
+
+#: ../12345/functions.php:1896 ../csschange/functions.php:1899
+#: ../finalexp/functions.php:1899 ../finaltheme/functions.php:1896
+#: ../good/functions.php:1896 ../latestfile/functions.php:1896
+#: ../qwert/functions.php:1896
+msgid "Required"
+msgstr ""
+
+#: ../12345/functions.php:1897 ../csschange/functions.php:1900
+#: ../finalexp/functions.php:1900 ../finaltheme/functions.php:1897
+#: ../good/functions.php:1897 ../latestfile/functions.php:1897
+#: ../qwert/functions.php:1897
+msgid "Remove"
+msgstr ""
+
+#: ../12345/functions.php:1935 ../csschange/functions.php:1938
+#: ../finalexp/functions.php:1938 ../finaltheme/functions.php:1935
+#: ../good/functions.php:1935 ../latestfile/functions.php:1935
+#: ../qwert/functions.php:1935
+msgid "Add New Field"
+msgstr ""
+
+#: ../12345/functions.php:2061 ../csschange/functions.php:2064
+#: ../finalexp/functions.php:2064 ../finaltheme/functions.php:2061
+#: ../good/functions.php:2061 ../latestfile/functions.php:2061
+#: ../qwert/functions.php:2061
+msgid "Header"
+msgstr ""
+
+#: ../12345/functions.php:2061 ../csschange/functions.php:2064
+#: ../finalexp/functions.php:2064 ../finaltheme/functions.php:2061
+#: ../good/functions.php:2061 ../latestfile/functions.php:2061
+#: ../qwert/functions.php:2061
+msgid "Post / Content"
+msgstr ""
+
+#: ../12345/functions.php:2061 ../csschange/functions.php:2064
+#: ../finalexp/functions.php:2064 ../finaltheme/functions.php:2061
+#: ../good/functions.php:2061 ../latestfile/functions.php:2061
+#: ../qwert/functions.php:2061
+msgid "Sidebar"
+msgstr ""
+
+#: ../12345/functions.php:2061 ../csschange/functions.php:2064
+#: ../finalexp/functions.php:2064 ../finaltheme/functions.php:2061
+#: ../good/functions.php:2061 ../latestfile/functions.php:2061
+#: ../qwert/functions.php:2061
+msgid "Footer"
+msgstr ""
+
+#: ../12345/functions.php:2061 ../csschange/functions.php:2064
+#: ../finalexp/functions.php:2064 ../finaltheme/functions.php:2061
+#: ../good/functions.php:2061 ../latestfile/functions.php:2061
+#: ../qwert/functions.php:2061
+msgid "Colors"
+msgstr ""
+
+#: ../12345/functions.php:2061 ../csschange/functions.php:2064
+#: ../finalexp/functions.php:2064 ../finaltheme/functions.php:2061
+#: ../good/functions.php:2061 ../latestfile/functions.php:2061
+#: ../qwert/functions.php:2061
+msgid "Shortcodes"
+msgstr ""
+
+#: ../12345/functions.php:2061 ../csschange/functions.php:2064
+#: ../finalexp/functions.php:2064 ../finaltheme/functions.php:2061
+#: ../good/functions.php:2061 ../latestfile/functions.php:2061
+#: ../qwert/functions.php:2061
+msgid "Contact Us Form "
+msgstr ""
+
+#: ../12345/functions.php:2061 ../csschange/functions.php:2064
+#: ../finalexp/functions.php:2064 ../finaltheme/functions.php:2061
+#: ../good/functions.php:2061 ../latestfile/functions.php:2061
+#: ../qwert/functions.php:2061
+msgid "General"
+msgstr ""
+
+#: ../12345/functions.php:2368 ../csschange/functions.php:2371
+#: ../finalexp/functions.php:2371 ../finaltheme/functions.php:2368
+#: ../good/functions.php:2368 ../latestfile/functions.php:2368
+#: ../qwert/functions.php:2368
+msgid "E-Mail Address:"
+msgstr ""
+
+#: ../12345/functions.php:2369 ../csschange/functions.php:2372
+#: ../finalexp/functions.php:2372 ../finaltheme/functions.php:2369
+#: ../good/functions.php:2369 ../latestfile/functions.php:2369
+#: ../qwert/functions.php:2369
+msgid "Your E-Mail Address:"
+msgstr ""
+
+#: ../12345/functions.php:2372 ../csschange/functions.php:2375
+#: ../finalexp/functions.php:2375 ../finaltheme/functions.php:2372
+#: ../good/functions.php:2372 ../latestfile/functions.php:2372
+#: ../qwert/functions.php:2372
+msgid "Message:"
+msgstr ""
+
+#: ../12345/functions.php:2373 ../csschange/functions.php:2376
+#: ../finalexp/functions.php:2376 ../finaltheme/functions.php:2373
+#: ../good/functions.php:2373 ../latestfile/functions.php:2373
+#: ../qwert/functions.php:2373
+msgid "Enter Your Message Here&hellip;"
+msgstr ""
+
+#: ../12345/functions.php:2377 ../csschange/functions.php:2380
+#: ../finalexp/functions.php:2380 ../finaltheme/functions.php:2377
+#: ../good/functions.php:2377 ../latestfile/functions.php:2377
+#: ../qwert/functions.php:2377
+msgid "Send Message"
+msgstr ""
+
+#: ../12345/functions.php:2392 ../csschange/functions.php:2395
+#: ../finalexp/functions.php:2395 ../finaltheme/functions.php:2392
+#: ../good/functions.php:2392 ../latestfile/functions.php:2392
+#: ../qwert/functions.php:2392
+msgid "Message was not sent. Try Again."
+msgstr ""
+
+#: ../12345/functions.php:2393 ../csschange/functions.php:2396
+#: ../finalexp/functions.php:2396 ../finaltheme/functions.php:2393
+#: ../good/functions.php:2393 ../latestfile/functions.php:2393
+#: ../qwert/functions.php:2393
+msgid "Thanks! Your message has been sent."
+msgstr ""
+
+#: ../12345/functions.php:2420 ../csschange/functions.php:2423
+#: ../finalexp/functions.php:2423 ../finaltheme/functions.php:2420
+#: ../good/functions.php:2420 ../latestfile/functions.php:2420
+#: ../qwert/functions.php:2420
+msgid "From: "
+msgstr ""
+
+#: ../12345/functions.php:2421 ../csschange/functions.php:2424
+#: ../finalexp/functions.php:2424 ../finaltheme/functions.php:2421
+#: ../good/functions.php:2421 ../latestfile/functions.php:2421
+#: ../qwert/functions.php:2421
+msgid "Reply-To: "
+msgstr ""
+
+#: ../12345/functions.php:2443 ../csschange/functions.php:2446
+#: ../finalexp/functions.php:2446 ../finaltheme/functions.php:2443
+#: ../good/functions.php:2443 ../latestfile/functions.php:2443
+#: ../qwert/functions.php:2443
+msgid "Message:   "
+msgstr ""
+
+#: ../12345/functions.php:2565 ../csschange/functions.php:2568
+#: ../finalexp/functions.php:2568 ../finaltheme/functions.php:2565
+#: ../good/functions.php:2565 ../latestfile/functions.php:2565
+#: ../qwert/functions.php:2565
+msgid "Subject"
+msgstr ""
+
+#: ../12345/functions.php:2692 ../csschange/functions.php:2695
+#: ../finalexp/functions.php:2695 ../finaltheme/functions.php:2692
+#: ../good/functions.php:2692 ../latestfile/functions.php:2692
+#: ../qwert/functions.php:2692
+msgid "Archive by category &#39;"
+msgstr ""
+
+#: ../12345/functions.php:2739 ../csschange/functions.php:2742
+#: ../finalexp/functions.php:2742 ../finaltheme/functions.php:2739
+#: ../good/functions.php:2739 ../latestfile/functions.php:2739
+#: ../qwert/functions.php:2739
+msgid "Search results for &#39;"
+msgstr ""
+
+#: ../12345/functions.php:2742 ../csschange/functions.php:2745
+#: ../finalexp/functions.php:2745 ../finaltheme/functions.php:2742
+#: ../good/functions.php:2742 ../latestfile/functions.php:2742
+#: ../qwert/functions.php:2742
+msgid "Posts tagged &#39;"
+msgstr ""
+
+#: ../12345/functions.php:2749 ../csschange/functions.php:2752
+#: ../finalexp/functions.php:2752 ../finaltheme/functions.php:2749
+#: ../good/functions.php:2749 ../latestfile/functions.php:2749
+#: ../qwert/functions.php:2749
+msgid "Articles posted by "
+msgstr ""
+
+#: ../12345/functions.php:2752 ../csschange/functions.php:2755
+#: ../finalexp/functions.php:2755 ../finaltheme/functions.php:2752
+#: ../good/functions.php:2752 ../latestfile/functions.php:2752
+#: ../qwert/functions.php:2752
+msgid "Error 404"
+msgstr ""
+
+#: ../12345/functions.php:2757 ../csschange/functions.php:2760
+#: ../finalexp/functions.php:2760 ../finaltheme/functions.php:2757
+#: ../good/functions.php:2757 ../latestfile/functions.php:2757
+#: ../qwert/functions.php:2757
+msgid "Page"
+msgstr ""
+
+#: ../12345/functions.php:2781 ../csschange/functions.php:2784
+#: ../finalexp/functions.php:2784 ../finaltheme/functions.php:2781
+#: ../good/functions.php:2781 ../latestfile/functions.php:2781
+#: ../qwert/functions.php:2781
+msgid "Block Style:"
+msgstr ""
+
+#: ../12345/functions.php:2783 ../csschange/functions.php:2786
+#: ../finalexp/functions.php:2786 ../finaltheme/functions.php:2783
+#: ../good/functions.php:2783 ../latestfile/functions.php:2783
+#: ../qwert/functions.php:2783
+msgid "Default"
+msgstr ""
+
+#: ../12345/functions.php:2784 ../csschange/functions.php:2787
+#: ../finalexp/functions.php:2787 ../finaltheme/functions.php:2784
+#: ../good/functions.php:2784 ../latestfile/functions.php:2784
+#: ../qwert/functions.php:2784
+msgid "None"
+msgstr ""
+
+#: ../12345/functions.php:2785 ../csschange/functions.php:2788
+#: ../finalexp/functions.php:2788 ../finaltheme/functions.php:2785
+#: ../good/functions.php:2785 ../latestfile/functions.php:2785
+#: ../qwert/functions.php:2785
+msgid "Block"
+msgstr ""
+
+#: ../12345/header.php:90 ../12345/PageTemplate1.php:97
+#: ../12345/PageTemplate2.php:97 ../csschange/header.php:52
+#: ../csschange/PageTemplate1.php:59 ../csschange/PageTemplate2.php:59
+#: ../finalexp/header.php:52 ../finalexp/PageTemplate1.php:59
+#: ../finalexp/PageTemplate2.php:59 ../finaltheme/header.php:52
+#: ../finaltheme/PageTemplate1.php:59 ../finaltheme/PageTemplate2.php:59
+#: ../good/header.php:39 ../good/PageTemplate1.php:46
+#: ../good/PageTemplate2.php:46 ../latestfile/header.php:52
+#: ../latestfile/PageTemplate1.php:59 ../latestfile/PageTemplate2.php:59
+#: ../qwert/header.php:39 ../qwert/PageTemplate1.php:46
+#: ../qwert/PageTemplate2.php:46 ../twentythirteen/functions.php:220
+#: ../twentytwelve/functions.php:215
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../12345/loginform.php:5 ../csschange/loginform.php:5
+#: ../finalexp/loginform.php:5 ../finaltheme/loginform.php:5
+#: ../good/loginform.php:5 ../latestfile/loginform.php:5
+#: ../qwert/loginform.php:5
+msgid "Use this widget to add login form"
+msgstr ""
+
+#: ../12345/loginform.php:6 ../csschange/loginform.php:6
+#: ../finalexp/loginform.php:6 ../finaltheme/loginform.php:6
+#: ../good/loginform.php:6 ../latestfile/loginform.php:6
+#: ../qwert/loginform.php:6
+msgid "Log in Form"
+msgstr ""
+
+#: ../12345/loginform.php:17 ../csschange/loginform.php:17
+#: ../finalexp/loginform.php:17 ../finaltheme/loginform.php:17
+#: ../good/loginform.php:17 ../latestfile/loginform.php:17
+#: ../qwert/loginform.php:17
+msgid "Username"
+msgstr ""
+
+#: ../12345/loginform.php:18 ../csschange/loginform.php:18
+#: ../finalexp/loginform.php:18 ../finaltheme/loginform.php:18
+#: ../good/loginform.php:18 ../latestfile/loginform.php:18
+#: ../qwert/loginform.php:18
+msgid "Password"
+msgstr ""
+
+#: ../12345/loginform.php:19 ../csschange/loginform.php:19
+#: ../finalexp/loginform.php:19 ../finaltheme/loginform.php:19
+#: ../good/loginform.php:19 ../latestfile/loginform.php:19
+#: ../qwert/loginform.php:19
+msgid "Remember Me!"
+msgstr ""
+
+#: ../12345/loginform.php:30 ../csschange/loginform.php:30
+#: ../finalexp/loginform.php:30 ../finaltheme/loginform.php:30
+#: ../good/loginform.php:30 ../latestfile/loginform.php:30
+#: ../qwert/loginform.php:30
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: ../12345/loginform.php:49 ../12345/loginform.php:58
+#: ../csschange/loginform.php:49 ../csschange/loginform.php:58
+#: ../finalexp/loginform.php:49 ../finalexp/loginform.php:58
+#: ../finaltheme/loginform.php:49 ../finaltheme/loginform.php:58
+#: ../good/loginform.php:49 ../good/loginform.php:58
+#: ../latestfile/loginform.php:49 ../latestfile/loginform.php:58
+#: ../qwert/loginform.php:49 ../qwert/loginform.php:58
+msgid "Log In"
+msgstr ""
+
+#: ../12345/loginform.php:49 ../12345/loginform.php:60
+#: ../csschange/loginform.php:49 ../csschange/loginform.php:60
+#: ../finalexp/loginform.php:49 ../finalexp/loginform.php:60
+#: ../finaltheme/loginform.php:49 ../finaltheme/loginform.php:60
+#: ../good/loginform.php:49 ../good/loginform.php:60
+#: ../latestfile/loginform.php:49 ../latestfile/loginform.php:60
+#: ../qwert/loginform.php:49 ../qwert/loginform.php:60
+msgid "Log Out"
+msgstr ""
+
+#: ../12345/loginform.php:57 ../csschange/loginform.php:57
+#: ../finalexp/loginform.php:57 ../finaltheme/loginform.php:57
+#: ../good/loginform.php:57 ../latestfile/loginform.php:57
+#: ../qwert/loginform.php:57
+msgid "Log in Button Text:"
+msgstr ""
+
+#: ../12345/loginform.php:59 ../csschange/loginform.php:59
+#: ../finalexp/loginform.php:59 ../finaltheme/loginform.php:59
+#: ../good/loginform.php:59 ../latestfile/loginform.php:59
+#: ../qwert/loginform.php:59
+msgid "Log out Button Text:"
+msgstr ""
+
+#: ../12345/search.php:65 ../csschange/search.php:67 ../finalexp/search.php:67
+#: ../finaltheme/search.php:67 ../good/search.php:64
+#: ../latestfile/search.php:67 ../qwert/search.php:64
+#: ../twentythirteen/search.php:18 ../twentytwelve/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../12345/searchform.php:7 ../csschange/searchform.php:7
+#: ../finalexp/searchform.php:7 ../finaltheme/searchform.php:7
+#: ../finaltheme/sidebar-1.php:41 ../good/searchform.php:7
+#: ../good/sidebar-1.php:21 ../latestfile/searchform.php:7
+#: ../latestfile/sidebar-1.php:21 ../qwert/searchform.php:7
+msgid "Search"
+msgstr ""
+
+#: ../12345/single.php:65 ../csschange/single.php:67 ../finalexp/single.php:67
+#: ../finaltheme/single.php:67 ../good/single.php:64
+#: ../latestfile/single.php:67 ../qwert/single.php:64
+#: ../twentythirteen/image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../12345/single.php:66 ../csschange/single.php:68 ../finalexp/single.php:68
+#: ../finaltheme/single.php:68 ../good/single.php:65
+#: ../latestfile/single.php:68 ../qwert/single.php:65
+#: ../twentythirteen/image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../12345/tag.php:65 ../csschange/tag.php:67 ../finalexp/tag.php:67
+#: ../finaltheme/tag.php:67 ../good/tag.php:64 ../latestfile/tag.php:67
+#: ../qwert/tag.php:64 ../twentythirteen/tag.php:21 ../twentytwelve/tag.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../12345/widgetinit.php:23 ../csschange/widgetinit.php:23
+#: ../finalexp/widgetinit.php:23 ../finaltheme/widgetinit.php:24
+#: ../good/widgetinit.php:25 ../latestfile/widgetinit.php:24
+#: ../qwert/widgetinit.php:23
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../12345/widgetinit.php:25 ../csschange/widgetinit.php:25
+#: ../finalexp/widgetinit.php:25 ../finaltheme/widgetinit.php:26
+#: ../good/widgetinit.php:27 ../latestfile/widgetinit.php:26
+#: ../qwert/widgetinit.php:25
+msgid "The sidebar for the optional Showcase Template"
+msgstr ""
+
+#: ../12345/widgetinit.php:32 ../csschange/widgetinit.php:32
+#: ../finalexp/widgetinit.php:32 ../finaltheme/widgetinit.php:33
+#: ../good/widgetinit.php:34 ../latestfile/widgetinit.php:33
+#: ../qwert/widgetinit.php:32
+msgid "CAWidgetArea00"
+msgstr ""
+
+#: ../12345/widgetinit.php:34 ../12345/widgetinit.php:43
+#: ../12345/widgetinit.php:52 ../12345/widgetinit.php:61
+#: ../12345/widgetinit.php:70 ../12345/widgetinit.php:79
+#: ../12345/widgetinit.php:88 ../12345/widgetinit.php:97
+#: ../12345/widgetinit.php:106 ../12345/widgetinit.php:115
+#: ../12345/widgetinit.php:124 ../12345/widgetinit.php:133
+#: ../12345/widgetinit.php:142 ../12345/widgetinit.php:151
+#: ../12345/widgetinit.php:160 ../12345/widgetinit.php:169
+#: ../12345/widgetinit.php:178 ../12345/widgetinit.php:187
+#: ../12345/widgetinit.php:196 ../12345/widgetinit.php:205
+#: ../12345/widgetinit.php:214 ../12345/widgetinit.php:223
+#: ../12345/widgetinit.php:232 ../12345/widgetinit.php:241
+#: ../12345/widgetinit.php:250 ../12345/widgetinit.php:259
+#: ../12345/widgetinit.php:268 ../12345/widgetinit.php:277
+#: ../12345/widgetinit.php:286 ../12345/widgetinit.php:295
+#: ../12345/widgetinit.php:304 ../12345/widgetinit.php:313
+#: ../12345/widgetinit.php:322 ../12345/widgetinit.php:331
+#: ../12345/widgetinit.php:340 ../csschange/widgetinit.php:34
+#: ../csschange/widgetinit.php:43 ../csschange/widgetinit.php:52
+#: ../csschange/widgetinit.php:61 ../csschange/widgetinit.php:70
+#: ../csschange/widgetinit.php:79 ../csschange/widgetinit.php:88
+#: ../csschange/widgetinit.php:97 ../csschange/widgetinit.php:106
+#: ../csschange/widgetinit.php:115 ../csschange/widgetinit.php:124
+#: ../csschange/widgetinit.php:133 ../csschange/widgetinit.php:142
+#: ../csschange/widgetinit.php:151 ../csschange/widgetinit.php:160
+#: ../csschange/widgetinit.php:169 ../csschange/widgetinit.php:178
+#: ../csschange/widgetinit.php:187 ../csschange/widgetinit.php:196
+#: ../csschange/widgetinit.php:205 ../csschange/widgetinit.php:214
+#: ../csschange/widgetinit.php:223 ../csschange/widgetinit.php:232
+#: ../csschange/widgetinit.php:241 ../csschange/widgetinit.php:250
+#: ../csschange/widgetinit.php:259 ../csschange/widgetinit.php:268
+#: ../csschange/widgetinit.php:277 ../csschange/widgetinit.php:286
+#: ../csschange/widgetinit.php:295 ../csschange/widgetinit.php:304
+#: ../csschange/widgetinit.php:313 ../csschange/widgetinit.php:322
+#: ../csschange/widgetinit.php:331 ../csschange/widgetinit.php:340
+#: ../finalexp/widgetinit.php:34 ../finalexp/widgetinit.php:43
+#: ../finalexp/widgetinit.php:52 ../finalexp/widgetinit.php:61
+#: ../finalexp/widgetinit.php:70 ../finalexp/widgetinit.php:79
+#: ../finalexp/widgetinit.php:88 ../finalexp/widgetinit.php:97
+#: ../finalexp/widgetinit.php:106 ../finalexp/widgetinit.php:115
+#: ../finalexp/widgetinit.php:124 ../finalexp/widgetinit.php:133
+#: ../finalexp/widgetinit.php:142 ../finalexp/widgetinit.php:151
+#: ../finalexp/widgetinit.php:160 ../finalexp/widgetinit.php:169
+#: ../finalexp/widgetinit.php:178 ../finalexp/widgetinit.php:187
+#: ../finalexp/widgetinit.php:196 ../finalexp/widgetinit.php:205
+#: ../finalexp/widgetinit.php:214 ../finalexp/widgetinit.php:223
+#: ../finalexp/widgetinit.php:232 ../finalexp/widgetinit.php:241
+#: ../finalexp/widgetinit.php:250 ../finalexp/widgetinit.php:259
+#: ../finalexp/widgetinit.php:268 ../finalexp/widgetinit.php:277
+#: ../finalexp/widgetinit.php:286 ../finalexp/widgetinit.php:295
+#: ../finalexp/widgetinit.php:304 ../finalexp/widgetinit.php:313
+#: ../finalexp/widgetinit.php:322 ../finalexp/widgetinit.php:331
+#: ../finalexp/widgetinit.php:340 ../finaltheme/widgetinit.php:35
+#: ../finaltheme/widgetinit.php:44 ../finaltheme/widgetinit.php:53
+#: ../finaltheme/widgetinit.php:62 ../finaltheme/widgetinit.php:71
+#: ../finaltheme/widgetinit.php:80 ../finaltheme/widgetinit.php:89
+#: ../finaltheme/widgetinit.php:98 ../finaltheme/widgetinit.php:107
+#: ../finaltheme/widgetinit.php:116 ../finaltheme/widgetinit.php:125
+#: ../finaltheme/widgetinit.php:134 ../finaltheme/widgetinit.php:143
+#: ../finaltheme/widgetinit.php:152 ../finaltheme/widgetinit.php:161
+#: ../finaltheme/widgetinit.php:170 ../finaltheme/widgetinit.php:179
+#: ../finaltheme/widgetinit.php:188 ../finaltheme/widgetinit.php:197
+#: ../finaltheme/widgetinit.php:206 ../finaltheme/widgetinit.php:215
+#: ../finaltheme/widgetinit.php:224 ../finaltheme/widgetinit.php:233
+#: ../finaltheme/widgetinit.php:242 ../finaltheme/widgetinit.php:251
+#: ../finaltheme/widgetinit.php:260 ../finaltheme/widgetinit.php:269
+#: ../finaltheme/widgetinit.php:278 ../finaltheme/widgetinit.php:287
+#: ../finaltheme/widgetinit.php:296 ../finaltheme/widgetinit.php:305
+#: ../finaltheme/widgetinit.php:314 ../finaltheme/widgetinit.php:323
+#: ../finaltheme/widgetinit.php:332 ../finaltheme/widgetinit.php:341
+#: ../good/widgetinit.php:36 ../good/widgetinit.php:45
+#: ../good/widgetinit.php:54 ../good/widgetinit.php:63
+#: ../good/widgetinit.php:72 ../good/widgetinit.php:81
+#: ../good/widgetinit.php:90 ../good/widgetinit.php:99
+#: ../good/widgetinit.php:108 ../good/widgetinit.php:117
+#: ../good/widgetinit.php:126 ../good/widgetinit.php:135
+#: ../good/widgetinit.php:144 ../good/widgetinit.php:153
+#: ../good/widgetinit.php:162 ../good/widgetinit.php:171
+#: ../good/widgetinit.php:180 ../good/widgetinit.php:189
+#: ../good/widgetinit.php:198 ../good/widgetinit.php:207
+#: ../good/widgetinit.php:216 ../good/widgetinit.php:225
+#: ../good/widgetinit.php:234 ../good/widgetinit.php:243
+#: ../good/widgetinit.php:252 ../good/widgetinit.php:261
+#: ../good/widgetinit.php:270 ../good/widgetinit.php:279
+#: ../good/widgetinit.php:288 ../good/widgetinit.php:297
+#: ../good/widgetinit.php:306 ../good/widgetinit.php:315
+#: ../good/widgetinit.php:324 ../good/widgetinit.php:333
+#: ../good/widgetinit.php:342 ../latestfile/widgetinit.php:35
+#: ../latestfile/widgetinit.php:44 ../latestfile/widgetinit.php:53
+#: ../latestfile/widgetinit.php:62 ../latestfile/widgetinit.php:71
+#: ../latestfile/widgetinit.php:80 ../latestfile/widgetinit.php:89
+#: ../latestfile/widgetinit.php:98 ../latestfile/widgetinit.php:107
+#: ../latestfile/widgetinit.php:116 ../latestfile/widgetinit.php:125
+#: ../latestfile/widgetinit.php:134 ../latestfile/widgetinit.php:143
+#: ../latestfile/widgetinit.php:152 ../latestfile/widgetinit.php:161
+#: ../latestfile/widgetinit.php:170 ../latestfile/widgetinit.php:179
+#: ../latestfile/widgetinit.php:188 ../latestfile/widgetinit.php:197
+#: ../latestfile/widgetinit.php:206 ../latestfile/widgetinit.php:215
+#: ../latestfile/widgetinit.php:224 ../latestfile/widgetinit.php:233
+#: ../latestfile/widgetinit.php:242 ../latestfile/widgetinit.php:251
+#: ../latestfile/widgetinit.php:260 ../latestfile/widgetinit.php:269
+#: ../latestfile/widgetinit.php:278 ../latestfile/widgetinit.php:287
+#: ../latestfile/widgetinit.php:296 ../latestfile/widgetinit.php:305
+#: ../latestfile/widgetinit.php:314 ../latestfile/widgetinit.php:323
+#: ../latestfile/widgetinit.php:332 ../latestfile/widgetinit.php:341
+#: ../qwert/widgetinit.php:34 ../qwert/widgetinit.php:43
+#: ../qwert/widgetinit.php:52 ../qwert/widgetinit.php:61
+#: ../qwert/widgetinit.php:70 ../qwert/widgetinit.php:79
+#: ../qwert/widgetinit.php:88 ../qwert/widgetinit.php:97
+#: ../qwert/widgetinit.php:106 ../qwert/widgetinit.php:115
+#: ../qwert/widgetinit.php:124 ../qwert/widgetinit.php:133
+#: ../qwert/widgetinit.php:142 ../qwert/widgetinit.php:151
+#: ../qwert/widgetinit.php:160 ../qwert/widgetinit.php:169
+#: ../qwert/widgetinit.php:178 ../qwert/widgetinit.php:187
+#: ../qwert/widgetinit.php:196 ../qwert/widgetinit.php:205
+#: ../qwert/widgetinit.php:214 ../qwert/widgetinit.php:223
+#: ../qwert/widgetinit.php:232 ../qwert/widgetinit.php:241
+#: ../qwert/widgetinit.php:250 ../qwert/widgetinit.php:259
+#: ../qwert/widgetinit.php:268 ../qwert/widgetinit.php:277
+#: ../qwert/widgetinit.php:286 ../qwert/widgetinit.php:295
+#: ../qwert/widgetinit.php:304 ../qwert/widgetinit.php:313
+#: ../qwert/widgetinit.php:322 ../qwert/widgetinit.php:331
+#: ../qwert/widgetinit.php:340
+msgid "An optional widget area for your site footer"
+msgstr ""
+
+#: ../12345/widgetinit.php:41 ../csschange/widgetinit.php:41
+#: ../finalexp/widgetinit.php:41 ../finaltheme/widgetinit.php:42
+#: ../good/widgetinit.php:43 ../latestfile/widgetinit.php:42
+#: ../qwert/widgetinit.php:41
+msgid "CAWidgetArea01"
+msgstr ""
+
+#: ../12345/widgetinit.php:50 ../csschange/widgetinit.php:50
+#: ../finalexp/widgetinit.php:50 ../finaltheme/widgetinit.php:51
+#: ../good/widgetinit.php:52 ../latestfile/widgetinit.php:51
+#: ../qwert/widgetinit.php:50
+msgid "CAWidgetArea02"
+msgstr ""
+
+#: ../12345/widgetinit.php:59 ../csschange/widgetinit.php:59
+#: ../finalexp/widgetinit.php:59 ../finaltheme/widgetinit.php:60
+#: ../good/widgetinit.php:61 ../latestfile/widgetinit.php:60
+#: ../qwert/widgetinit.php:59
+msgid "CAWidgetArea03"
+msgstr ""
+
+#: ../12345/widgetinit.php:68 ../csschange/widgetinit.php:68
+#: ../finalexp/widgetinit.php:68 ../finaltheme/widgetinit.php:69
+#: ../good/widgetinit.php:70 ../latestfile/widgetinit.php:69
+#: ../qwert/widgetinit.php:68
+msgid "HAWidgetArea00"
+msgstr ""
+
+#: ../12345/widgetinit.php:77 ../csschange/widgetinit.php:77
+#: ../finalexp/widgetinit.php:77 ../finaltheme/widgetinit.php:78
+#: ../good/widgetinit.php:79 ../latestfile/widgetinit.php:78
+#: ../qwert/widgetinit.php:77
+msgid "HAWidgetArea01"
+msgstr ""
+
+#: ../12345/widgetinit.php:86 ../csschange/widgetinit.php:86
+#: ../finalexp/widgetinit.php:86 ../finaltheme/widgetinit.php:87
+#: ../good/widgetinit.php:88 ../latestfile/widgetinit.php:87
+#: ../qwert/widgetinit.php:86
+msgid "HAWidgetArea02"
+msgstr ""
+
+#: ../12345/widgetinit.php:95 ../csschange/widgetinit.php:95
+#: ../finalexp/widgetinit.php:95 ../finaltheme/widgetinit.php:96
+#: ../good/widgetinit.php:97 ../latestfile/widgetinit.php:96
+#: ../qwert/widgetinit.php:95
+msgid "HAWidgetArea03"
+msgstr ""
+
+#: ../12345/widgetinit.php:104 ../csschange/widgetinit.php:104
+#: ../finalexp/widgetinit.php:104 ../finaltheme/widgetinit.php:105
+#: ../good/widgetinit.php:106 ../latestfile/widgetinit.php:105
+#: ../qwert/widgetinit.php:104
+msgid "HBWidgetArea00"
+msgstr ""
+
+#: ../12345/widgetinit.php:113 ../csschange/widgetinit.php:113
+#: ../finalexp/widgetinit.php:113 ../finaltheme/widgetinit.php:114
+#: ../good/widgetinit.php:115 ../latestfile/widgetinit.php:114
+#: ../qwert/widgetinit.php:113
+msgid "HBWidgetArea01"
+msgstr ""
+
+#: ../12345/widgetinit.php:122 ../csschange/widgetinit.php:122
+#: ../finalexp/widgetinit.php:122 ../finaltheme/widgetinit.php:123
+#: ../good/widgetinit.php:124 ../latestfile/widgetinit.php:123
+#: ../qwert/widgetinit.php:122
+msgid "HBWidgetArea02"
+msgstr ""
+
+#: ../12345/widgetinit.php:131 ../csschange/widgetinit.php:131
+#: ../finalexp/widgetinit.php:131 ../finaltheme/widgetinit.php:132
+#: ../good/widgetinit.php:133 ../latestfile/widgetinit.php:132
+#: ../qwert/widgetinit.php:131
+msgid "HBWidgetArea03"
+msgstr ""
+
+#: ../12345/widgetinit.php:140 ../csschange/widgetinit.php:140
+#: ../finalexp/widgetinit.php:140 ../finaltheme/widgetinit.php:141
+#: ../good/widgetinit.php:142 ../latestfile/widgetinit.php:141
+#: ../qwert/widgetinit.php:140
+msgid "MAWidgetArea00"
+msgstr ""
+
+#: ../12345/widgetinit.php:149 ../csschange/widgetinit.php:149
+#: ../finalexp/widgetinit.php:149 ../finaltheme/widgetinit.php:150
+#: ../good/widgetinit.php:151 ../latestfile/widgetinit.php:150
+#: ../qwert/widgetinit.php:149
+msgid "MAWidgetArea01"
+msgstr ""
+
+#: ../12345/widgetinit.php:158 ../csschange/widgetinit.php:158
+#: ../finalexp/widgetinit.php:158 ../finaltheme/widgetinit.php:159
+#: ../good/widgetinit.php:160 ../latestfile/widgetinit.php:159
+#: ../qwert/widgetinit.php:158
+msgid "MAWidgetArea02"
+msgstr ""
+
+#: ../12345/widgetinit.php:167 ../csschange/widgetinit.php:167
+#: ../finalexp/widgetinit.php:167 ../finaltheme/widgetinit.php:168
+#: ../good/widgetinit.php:169 ../latestfile/widgetinit.php:168
+#: ../qwert/widgetinit.php:167
+msgid "MAWidgetArea03"
+msgstr ""
+
+#: ../12345/widgetinit.php:176 ../csschange/widgetinit.php:176
+#: ../finalexp/widgetinit.php:176 ../finaltheme/widgetinit.php:177
+#: ../good/widgetinit.php:178 ../latestfile/widgetinit.php:177
+#: ../qwert/widgetinit.php:176
+msgid "MBWidgetArea00"
+msgstr ""
+
+#: ../12345/widgetinit.php:185 ../csschange/widgetinit.php:185
+#: ../finalexp/widgetinit.php:185 ../finaltheme/widgetinit.php:186
+#: ../good/widgetinit.php:187 ../latestfile/widgetinit.php:186
+#: ../qwert/widgetinit.php:185
+msgid "MBWidgetArea01"
+msgstr ""
+
+#: ../12345/widgetinit.php:194 ../csschange/widgetinit.php:194
+#: ../finalexp/widgetinit.php:194 ../finaltheme/widgetinit.php:195
+#: ../good/widgetinit.php:196 ../latestfile/widgetinit.php:195
+#: ../qwert/widgetinit.php:194
+msgid "MBWidgetArea02"
+msgstr ""
+
+#: ../12345/widgetinit.php:203 ../csschange/widgetinit.php:203
+#: ../finalexp/widgetinit.php:203 ../finaltheme/widgetinit.php:204
+#: ../good/widgetinit.php:205 ../latestfile/widgetinit.php:204
+#: ../qwert/widgetinit.php:203
+msgid "MBWidgetArea03"
+msgstr ""
+
+#: ../12345/widgetinit.php:212 ../csschange/widgetinit.php:212
+#: ../finalexp/widgetinit.php:212 ../finaltheme/widgetinit.php:213
+#: ../good/widgetinit.php:214 ../latestfile/widgetinit.php:213
+#: ../qwert/widgetinit.php:212
+msgid "CBWidgetArea00"
+msgstr ""
+
+#: ../12345/widgetinit.php:221 ../csschange/widgetinit.php:221
+#: ../finalexp/widgetinit.php:221 ../finaltheme/widgetinit.php:222
+#: ../good/widgetinit.php:223 ../latestfile/widgetinit.php:222
+#: ../qwert/widgetinit.php:221
+msgid "CBWidgetArea01"
+msgstr ""
+
+#: ../12345/widgetinit.php:230 ../csschange/widgetinit.php:230
+#: ../finalexp/widgetinit.php:230 ../finaltheme/widgetinit.php:231
+#: ../good/widgetinit.php:232 ../latestfile/widgetinit.php:231
+#: ../qwert/widgetinit.php:230
+msgid "CBWidgetArea02"
+msgstr ""
+
+#: ../12345/widgetinit.php:239 ../csschange/widgetinit.php:239
+#: ../finalexp/widgetinit.php:239 ../finaltheme/widgetinit.php:240
+#: ../good/widgetinit.php:241 ../latestfile/widgetinit.php:240
+#: ../qwert/widgetinit.php:239
+msgid "CBWidgetArea03"
+msgstr ""
+
+#: ../12345/widgetinit.php:248 ../csschange/widgetinit.php:248
+#: ../finalexp/widgetinit.php:248 ../finaltheme/widgetinit.php:249
+#: ../good/widgetinit.php:250 ../latestfile/widgetinit.php:249
+#: ../qwert/widgetinit.php:248
+msgid "FAWidgetArea00"
+msgstr ""
+
+#: ../12345/widgetinit.php:257 ../csschange/widgetinit.php:257
+#: ../finalexp/widgetinit.php:257 ../finaltheme/widgetinit.php:258
+#: ../good/widgetinit.php:259 ../latestfile/widgetinit.php:258
+#: ../qwert/widgetinit.php:257
+msgid "FAWidgetArea01"
+msgstr ""
+
+#: ../12345/widgetinit.php:266 ../csschange/widgetinit.php:266
+#: ../finalexp/widgetinit.php:266 ../finaltheme/widgetinit.php:267
+#: ../good/widgetinit.php:268 ../latestfile/widgetinit.php:267
+#: ../qwert/widgetinit.php:266
+msgid "FAWidgetArea02"
+msgstr ""
+
+#: ../12345/widgetinit.php:275 ../csschange/widgetinit.php:275
+#: ../finalexp/widgetinit.php:275 ../finaltheme/widgetinit.php:276
+#: ../good/widgetinit.php:277 ../latestfile/widgetinit.php:276
+#: ../qwert/widgetinit.php:275
+msgid "FAWidgetArea03"
+msgstr ""
+
+#: ../12345/widgetinit.php:284 ../csschange/widgetinit.php:284
+#: ../finalexp/widgetinit.php:284 ../finaltheme/widgetinit.php:285
+#: ../good/widgetinit.php:286 ../latestfile/widgetinit.php:285
+#: ../qwert/widgetinit.php:284
+msgid "FBWidgetArea00"
+msgstr ""
+
+#: ../12345/widgetinit.php:293 ../csschange/widgetinit.php:293
+#: ../finalexp/widgetinit.php:293 ../finaltheme/widgetinit.php:294
+#: ../good/widgetinit.php:295 ../latestfile/widgetinit.php:294
+#: ../qwert/widgetinit.php:293
+msgid "FBWidgetArea01"
+msgstr ""
+
+#: ../12345/widgetinit.php:302 ../csschange/widgetinit.php:302
+#: ../finalexp/widgetinit.php:302 ../finaltheme/widgetinit.php:303
+#: ../good/widgetinit.php:304 ../latestfile/widgetinit.php:303
+#: ../qwert/widgetinit.php:302
+msgid "FBWidgetArea02"
+msgstr ""
+
+#: ../12345/widgetinit.php:311 ../csschange/widgetinit.php:311
+#: ../finalexp/widgetinit.php:311 ../finaltheme/widgetinit.php:312
+#: ../good/widgetinit.php:313 ../latestfile/widgetinit.php:312
+#: ../qwert/widgetinit.php:311
+msgid "FBWidgetArea03"
+msgstr ""
+
+#: ../12345/widgetinit.php:320 ../csschange/widgetinit.php:320
+#: ../finalexp/widgetinit.php:320 ../finaltheme/widgetinit.php:321
+#: ../good/widgetinit.php:322 ../latestfile/widgetinit.php:321
+#: ../qwert/widgetinit.php:320
+msgid "first-footer-widget-area"
+msgstr ""
+
+#: ../12345/widgetinit.php:329 ../csschange/widgetinit.php:329
+#: ../finalexp/widgetinit.php:329 ../finaltheme/widgetinit.php:330
+#: ../good/widgetinit.php:331 ../latestfile/widgetinit.php:330
+#: ../qwert/widgetinit.php:329
+msgid "second-footer-widget-area"
+msgstr ""
+
+#: ../12345/widgetinit.php:338 ../csschange/widgetinit.php:338
+#: ../finalexp/widgetinit.php:338 ../finaltheme/widgetinit.php:339
+#: ../good/widgetinit.php:340 ../latestfile/widgetinit.php:339
+#: ../qwert/widgetinit.php:338
+msgid "third-footer-widget-area"
+msgstr ""
+
+#: ../csschange/custommenu.php:64 ../finalexp/custommenu.php:64
+msgid "default"
+msgstr ""
+
+#: ../csschange/custommenu.php:64 ../finalexp/custommenu.php:64
+msgid "hmenu"
+msgstr ""
+
+#: ../csschange/custommenu.php:64 ../finalexp/custommenu.php:64
+msgid "nostyle"
+msgstr ""
+
+#: ../csschange/functions-1.php:24 ../finalexp/functions-1.php:24
+#: ../finaltheme/functions-1.php:24 ../good/functions-1.php:24
+#: ../latestfile/functions-1.php:24
+msgid "Sidebar-1 Menu"
+msgstr ""
+
+#: ../csschange/functions-1.php:34 ../finalexp/functions-1.php:34
+#: ../finaltheme/functions-1.php:34 ../good/functions-1.php:34
+#: ../latestfile/functions-1.php:34
+msgid "Use vertical menu on Sidebar-1"
+msgstr ""
+
+#: ../csschange/functions-1.php:39 ../finalexp/functions-1.php:39
+#: ../finaltheme/functions-1.php:39
+msgid "Sidebarmenu Heading Font Size"
+msgstr ""
+
+#: ../csschange/functions-1.php:44 ../finalexp/functions-1.php:44
+#: ../finaltheme/functions-1.php:44
+msgid "Heading Tag for Sidebarmenu Heading"
+msgstr ""
+
+#: ../finaltheme/functions-1.php:127
+msgid "Slide Show Image 5"
+msgstr ""
+
+#: ../finaltheme/sidebar-1.php:44 ../good/sidebar-1.php:24
+#: ../latestfile/sidebar-1.php:24
+msgid "Calendar"
+msgstr ""
+
+#: ../twentythirteen/404.php:16
+msgid "Not found"
+msgstr ""
+
+#: ../twentythirteen/404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../twentythirteen/archive.php:35 ../twentytwelve/archive.php:35
+msgid "Archives"
+msgstr ""
+
+#: ../twentythirteen/author.php:31
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+msgid "Leave a comment"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+msgid "One comment so far"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:36
+#: ../twentythirteen/content-image.php:32
+#: ../twentythirteen/content-quote.php:22
+#: ../twentythirteen/content-video.php:32 ../twentythirteen/content.php:49
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: ../twentythirteen/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../twentythirteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: ../twentythirteen/content-none.php:27 ../twentytwelve/404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../twentythirteen/footer.php:19 ../twentytwelve/footer.php:16
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../twentythirteen/footer.php:19 ../twentytwelve/footer.php:16
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../twentythirteen/functions.php:97
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../twentythirteen/functions.php:235
+msgid "Main Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:237
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: ../twentythirteen/functions.php:245
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:247
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../twentythirteen/functions.php:272
+msgid "Posts navigation"
+msgstr ""
+
+#: ../twentythirteen/functions.php:332
+msgid "Sticky"
+msgstr ""
+
+#: ../twentythirteen/functions.php:353 ../twentytwelve/functions.php:390
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../twentythirteen/functions.php:379 ../twentytwelve/content-aside.php:20
+#: ../twentytwelve/content-link.php:18 ../twentytwelve/content-quote.php:17
+#: ../twentytwelve/content-status.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../twentythirteen/header.php:44 ../twentytwelve/header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#: ../twentythirteen/image.php:22
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: ../twentythirteen/image.php:39
+msgid "Full resolution"
+msgstr ""
+
+#: ../twentythirteen/taxonomy-post_format.php:23
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: ../twentythirteen/inc/back-compat.php:41
+#: ../twentythirteen/inc/back-compat.php:53
+#: ../twentythirteen/inc/back-compat.php:68
+#, php-format
+msgid ""
+"Twenty Thirteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../twentytwelve/content-aside.php:23 ../twentytwelve/content-image.php:23
+#: ../twentytwelve/content-link.php:21 ../twentytwelve/content-quote.php:20
+#: ../twentytwelve/content-status.php:37 ../twentytwelve/content.php:30
+msgid "1 Reply"
+msgstr ""
+
+#: ../twentytwelve/content-aside.php:23 ../twentytwelve/content-image.php:23
+#: ../twentytwelve/content-link.php:21 ../twentytwelve/content-quote.php:20
+#: ../twentytwelve/content-status.php:37 ../twentytwelve/content.php:30
+msgid "% Replies"
+msgstr ""
+
+#: ../twentytwelve/content-link.php:12
+msgid "Link"
+msgstr ""
+
+#: ../twentytwelve/content-none.php:17 ../twentytwelve/index.php:53
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../twentytwelve/content.php:16
+msgid "Featured post"
+msgstr ""
+
+#: ../twentytwelve/functions.php:64
+msgid "Primary Menu"
+msgstr ""
+
+#: ../twentytwelve/functions.php:244
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../twentytwelve/functions.php:246
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: ../twentytwelve/functions.php:254
+msgid "First Front Page Widget Area"
+msgstr ""
+
+#: ../twentytwelve/functions.php:256 ../twentytwelve/functions.php:266
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr ""
+
+#: ../twentytwelve/functions.php:264
+msgid "Second Front Page Widget Area"
+msgstr ""
+
+#: ../twentytwelve/functions.php:317
+msgid "(Edit)"
+msgstr ""
+
+#: ../twentytwelve/functions.php:332
+msgid "Post author"
+msgstr ""
+
+#: ../twentytwelve/functions.php:353
+msgid "Reply"
+msgstr ""
+
+#: ../twentytwelve/functions.php:396
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+msgstr ""
+
+#: ../twentytwelve/functions.php:398
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+
+#: ../twentytwelve/functions.php:400
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: ../twentytwelve/image.php:26
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: ../twentytwelve/image.php:41
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../twentytwelve/image.php:42
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../twentytwelve/index.php:38
+msgid "No posts to display"
+msgstr ""
+
+#: ../twentytwelve/index.php:42
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: ../twentytwelve/search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""

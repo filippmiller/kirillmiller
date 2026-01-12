@@ -1,0 +1,460 @@
+@font-face {
+    font-family: 'Stolzl-Light';
+    src: url("../fonts/Stolzl-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Lemon';
+    src: url("../fonts/19572.ttf") format('truetype');
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: url("../images/krest_fon.png"), -webkit-linear-gradient(270deg, rgb(121, 2, 2), rgb(48, 0, 0), rgb(121, 2, 2)), url("../images/krest_fon.png");
+    background: url("../images/krest_fon.png"), -moz-linear-gradient(270deg, rgb(121, 2, 2), rgb(48, 0, 0), rgb(121, 2, 2)), url("../images/krest_fon.png");
+    background-image: url("../images/krest_fon.png"), linear-gradient(270deg, rgb(121, 2, 2), rgb(48, 0, 0), rgb(121, 2, 2));
+    color: white;
+    height: 100%;
+    font-family: Stolzl-Light;
+}
+
+.header {
+    background: url("../images/luch_verh.png"), -webkit-linear-gradient(0deg, rgb(137, 0, 0) 76%, rgb(48, 0, 0));
+    background: url("../images/luch_verh.png"), -moz-linear-gradient(0deg, rgb(137, 0, 0) 76%, rgb(48, 0, 0));
+    background-image: url("../images/luch_verh.png"), linear-gradient(0deg, rgb(137, 0, 0) 76%, rgb(48, 0, 0));
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.header .logo {
+    margin: 50px 0 25px;
+    max-width: 100%;
+}
+
+.footer {
+    background: -webkit-linear-gradient(180deg, rgb(22, 0, 0), rgb(75, 1, 1));
+    background: -moz-linear-gradient(180deg, rgb(22, 0, 0), rgb(75, 1, 1));
+    background: linear-gradient(180deg, rgb(22, 0, 0), rgb(75, 1, 1));
+    color: #8f0100;
+    padding: 40px 0 40px;
+}
+
+/*-----------------------------MENU-------------------------*/
+.menu-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.menu-block .menu li {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.menu-block .menu li:after, .main-menu-block .menu li:first-child:before {
+    content: ' ';
+    background: url("../images/krest_menu.png") no-repeat center center;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu-block a, .mobule-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-block a:hover, .menu-block .current-menu-item a, .menu-block .current-menu-parent a {
+    color: #EBC143;
+}
+
+
+.sub-menu-block .menu li:last-child:after {
+    content: '';
+    background: none;
+    margin: 0;
+}
+
+#mobile-menu-button {
+    color: #ffd200;
+    font-family: 'Lemon';
+    font-size: 1.2rem;
+}
+
+.mobule-menu {
+    background-color: #3c0402;
+    min-height: 40px;
+}
+
+.mobule-menu .menu {
+    padding: 15px 15px 0 15px;
+}
+.mobule-menu .menu > li:before {
+    content: ' ';
+    background: url("../images/krest_menu.png") no-repeat center center;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    position: relative;
+    left: -8px;
+}
+.mobule-menu .menu > li > a {
+    color: #ffd200;
+}
+
+.mobule-menu ul {
+    list-style: none;
+}
+
+/*-----------------------SUB MENU-----------------------------*/
+.sub-menu-block {
+    min-height: 40px;
+    background-color: #3c0402;
+}
+
+
+/*-----------------------CONTENT------------------------------*/
+.content {
+    background-image: url("../images/luch_niz.png");
+    background-color: #790202;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.content .title {
+    /*background: -webkit-linear-gradient(0deg, rgb(251, 207, 0), rgb(240, 251, 65), rgb(247, 255, 126));*/
+    /*background: -moz-linear-gradient(0deg, rgb(251, 207, 0), rgb(240, 251, 65), rgb(247, 255, 126));*/
+    background: linear-gradient(0deg, rgb(251, 207, 0), rgb(240, 251, 65), rgb(247, 255, 126));
+    font-size: 1.8rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Lemon';
+    text-align: center;
+    color: #EBC143;
+    line-height: 1.6rem;
+}
+
+.content .breadcrumbs {
+    text-align: right;
+    margin: 14px 0 20px;
+    font-size: 1rem;
+}
+
+.content .breadcrumbs a {
+    color: white;
+    text-decoration: none;
+}
+
+.content .breadcrumbs a:hover {
+    color: #EBC143;
+}
+
+.content .breadcrumbs .current-item {
+    color: #EBC143;
+}
+
+/*-----------------------GALLERY-------------------------*/
+
+.nicegallery-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box !important;
+    position: relative;
+}
+
+/*.nicegallery-container img {
+	opacity: 0;
+}*/
+.nicegallery-container .nicegallery-item {
+    max-width: 100%;
+    box-sizing: border-box !important;
+    overflow: hidden;
+}
+
+.nicegallery-container .nicegallery-wrapper {
+    position: relative;
+    height: 100%;
+    border: 5px solid #570202;
+
+}
+
+.nicegallery-container .wrapper-content {
+    height: 100%;
+    overflow: hidden;
+}
+
+.nicegallery-container .nicegallery-item a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.nicegallery-container img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.nicegallery-container .nice-gallery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box !important;
+}
+
+.nicegallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 0;
+    overflow: hidden;
+}
+
+/*------------------------------SLICK-------------------------*/
+/* Slider */
+.slick-slider {
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.slick-arrow {
+    position: absolute;
+}
+
+.slick-main-block {
+    width: 100%;
+    max-width: 2000px;
+    background-color: #790202;
+}
+
+.slick-main {
+    border: 5px solid #570202;
+}
+
+.slick-main .slide {
+    height: 360px;
+}
+
+.slick-main .slide img {
+    height: 100%;
+    width: auto;
+}
+
+
+
+.slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -40px;
+    display: block;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    white-space: nowrap;
+}
+
+.slick-dotted {
+    margin-bottom: 35px;
+}
+
+.slick-dots li {
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 7px;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 24px;
+    height: 23px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: url('../images/krest_1.png') no-repeat;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus, .slick-slide {
+    outline: none;
+}
+
+.slick-dots li.slick-active button {
+    background: url('../images/krest_2.png') no-repeat;
+}
+
+
+
+/*-----------------------------------MAIN PAGE-------------------------------*/
+.content-main {
+    background-color: #790202;
+}
+
+/*------------------------------WP - classess -------------------------------*/
+.aligncenter,.alignleft,.alignright {
+    display: block;
+    padding: 0;
+}
+
+.aligncenter {
+    float: none;
+    margin: .5em auto 1em;
+}
+
+.alignright {
+    float: right;
+    margin: .5em 0 1em 1em;
+}
+
+.alignleft {
+    float: left;
+    margin: .5em 1.6em 1em 0;
+}
+
+.wp-caption {
+    padding: 5px 0;
+    border: 1px solid #555;
+    background: #444;
+    text-align: center;
+}
+
+.wp-caption img {
+    display: inline;
+}
+
+.wp-caption p.wp-caption-text {
+    margin: 5px 0 0;
+    padding: 0;
+    text-align: center;
+    font-size: 75%;
+    font-weight: 100;
+    font-style: italic;
+    color: #ddd;
+}

@@ -1,0 +1,391 @@
+.gmList_clearfix::after { visibility:hidden; display:block; font-size:0px; content:" "; clear:both; height:0px;}
+.gmList_Collection{
+	overflow: hidden;
+}
+.gmList_Collection * { box-sizing: border-box; }
+/******************************** GM List TaAgs *************************/
+.gmListTtagsCloud ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.gmListNextPage
+{
+	display: inline-block;
+	padding: .5em .5em;
+	margin: .2em .2em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 110%;
+	text-decoration: none;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.gmListTtagsCloud ul li::before
+{
+	display: none;
+}
+.gmListTtagsCloud ul li {
+	display: inline-block;
+	max-width: 200px;
+	padding: .5em .5em;
+	margin: 0 .3em .1em 0;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 110%;
+	text-decoration: none;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    cursor: pointer;
+	transition: 0.3s;
+}
+/******************************** GM List Preloader *************************/
+.gmListPreloader
+{
+	min-height: inherit;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+	z-index: 100;
+}
+@keyframes gmFadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes gmClockwise {
+  to {transform: rotate(360deg) translatez(0);}
+}
+@keyframes gmCounter-clockwise {
+  to {transform: rotate(-360deg) translatez(0);}
+}
+.gmListPreloader .multi {
+  box-sizing: content-box;
+  position:absolute;
+  left:50%; top:50%;
+  margin: -25px;
+  height: 50px;
+  width:  50px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent hsla(0, 0%, 100%, 0.25) transparent hsla(0, 0%, 100%, 0.50);
+  border-radius: 100%;
+  animation: gmClockwise 1.01s linear infinite;
+}
+
+.gmListPreloader .multi:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 7px;
+  right: 7px;
+  height: 26px;
+  width:  26px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: hsla(0, 0%, 100%, 0.50) transparent transparent;
+  border-radius: 100%;
+}
+
+.gmListPreloader .multi::before {
+  content: '';
+  position: absolute;
+  height: 38px;
+  width:  38px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: hsla(0, 0%, 100%, 0.25) transparent hsla(0, 0%, 100%, 0.5);
+  border-radius: 100%;
+  animation: gmCounter-clockwise 0.49s linear infinite;
+}
+/******************************** GM List Thumb *************************/
+
+.gmList_Collection .flip-container {
+    transition: .35s ease-out;
+    perspective: 1000px;
+	transform-style: preserve-3d;
+}
+/* START: Accommodating for IE */
+/*.flip-container.hover .back {
+   transform: rotateY(0deg);
+   -ms-transform: rotateY(0deg);
+}
+/*.flip-container.hover .front {
+    transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+}
+/* END: Accommodating for IE */
+
+/*.flip-container, .front, .back {
+	
+}*/
+.gmList_Collection .flipper {
+	/*transition: 0.6s;*/
+	transform-style: preserve-3d;
+	position: relative;
+	/*pointer-events: none;*/
+}
+.gmList_Collection .front, .gmList_Collection .back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.4s linear;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.gmList_Collection .front {
+	background: rgba(255, 255, 255, 0);
+	transform: rotateY(0deg);
+	z-index: 2;
+	pointer-events:none;
+}
+.gmList_Collection .back {
+    transform: rotateY(-180deg);
+}
+.gmList_Collection .back img {
+	opacity: 0.6;
+}
+.gm_ListHover {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.gm_ListHover .gmListTitleHover{
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 99;
+	display: block;
+	top: 50%;
+	transform: translateY(-50%);
+	/*pointer-events:none;*/
+}
+
+.gmListTitleHover .thumbTitle{
+	font-size: 14px;
+	line-height: 14px;
+	width: 94%;
+	margin: auto;
+	letter-spacing: 1px;
+	display: block;
+	text-decoration: none;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    cursor: default;
+    pointer-events:none;
+}
+.gmListTitleHover .thumbButton
+{
+	float: left;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+	padding: 10px;
+	transition: background 0.5s;
+}
+.gmListTitleHover .thumbButton svg
+{
+	width:100%;
+	height: 100%;
+	transition: fill 0.5s;
+}
+.gmThumbTypeIdentifier
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	padding: 2px;
+	transition: opacity 1s;
+}
+.gmThumbTypeIdentifier.rotate {
+    animation-name: rotate; 
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.gmThumbTypeIdentifier svg
+{
+	width:100%;
+	height: 100%;
+}
+/******************************** GM List PopUp *************************/
+.gmListPopUpActive
+{
+	height: auto !important;
+	overflow: hidden !important;
+}
+.gmListPopUp * { box-sizing: border-box; }
+.gmListPopUp
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
+.gmListPopUp .gmpBg {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: absolute;
+  background: #fff;
+  /*transition: opacity .3s ease-out;*/
+}
+.gmListPopUp .gmpWrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: absolute;
+  outline: none !important;
+  -webkit-backface-visibility: hidden; 
+  overflow: hidden;
+ }
+.gmListPopUp .gmpContainer
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.gmListPopUp .gmpContainer:focus {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline-style:none;/*IE*/
+}
+.gmListPopUp .gmpContainer:before
+ {
+ 	display: inline-block;
+ 	height: 100%;
+ }
+.gmListPopUp .gmpCounter
+ {
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	font-size: 13px;
+}
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+.gmpAudioCoverContainer
+{
+	position: absolute;
+	border-radius: 50%;
+	height: 300px;
+	width:300px;
+	overflow: hidden;
+}
+.gmpAudioCoverContainer.rotate {
+    animation-name: rotate; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.gmListPopUp .gmpSubmenu
+{
+	position: absolute;
+	text-align: center;
+	width:100%;
+	top:100%;
+	transition: transform 1s;
+}
+.gmCircleAudioControllerContainer
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	width: 109px;
+	height: 109px;
+	transform: translate3d(-50%, -50%, 0px);
+	overflow: hidden;
+	cursor: pointer;
+}
+.gmCirclebButtonAudioPlayer
+{
+	position: absolute;
+	display: block;
+	width: 106px;
+	height: 106px;
+	padding: 12px;
+	transition: background 0.3s;
+}
+
+.gmCirclebButtonAudioPlayer svg
+{
+	width:100%;
+	height: 100%;
+}
+.gmListPopUp .gmpSubmenu .thumbButton
+{
+	float: left;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+	padding: 10px;
+	transition: background-color 0.3s;
+}
+.gmListPopUp .gmpSubmenu .thumbButton svg
+{
+	width:100%;
+	height: 100%;
+}
+.gmListPopUp .gmpCloseButton, .gmListPopUp .gmpPrevNextButton
+ {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+ }
+ .gmpPopUpItemView
+ {
+	 
+ }

