@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["php83", "php83Extensions.gd", "php83Extensions.mbstring", "php83Extensions.json"]
+
+[phases.build]
+cmds = [
+    "mkdir -p storage/data storage/tmp public/uploads",
+    "chmod -R 777 storage public/uploads"
+]
+
+[start]
+cmd = "php -S 0.0.0.0:${PORT:-8080} -t public public/router.php"
