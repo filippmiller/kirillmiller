@@ -1,0 +1,6 @@
+# Ignore uploads for initial deployment (1.2GB of media)
+# Add Railway volume for persistent media storage
+public/uploads/
+
+# Temporary files
+storage/tmp/

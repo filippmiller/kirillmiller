@@ -79,3 +79,18 @@
 - [x] PHP router for built-in server created
 - [x] Config updated for environment variables
 - [x] Deployment documentation created
+- [x] Deployed to Railway via CLI
+- [x] Site live at: https://kirillmiller-production.up.railway.app
+
+## Deployment Notes (January 16, 2026)
+- Used `railway up` from `kirillmiller.com/newsite` directory
+- Excluded `public/uploads/` (1.2GB) via `.railwayignore`
+- Removed `php83Extensions.json` from nixpacks (built-in in PHP 8)
+- Build time: ~80 seconds
+- Healthcheck passed
+
+## Next Steps
+- [ ] Add Railway volume for uploads (persistent media storage)
+- [ ] Upload media files to volume or external CDN
+- [ ] Set secure ADMIN_PASSWORD via `railway variables --set`
+- [ ] Configure custom domain if needed
