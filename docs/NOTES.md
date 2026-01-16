@@ -60,7 +60,10 @@
 ## Deployment Steps
 1. Push to GitHub repository
 2. Connect Railway to repository
-3. **Set Root Directory** to `kirillmiller.com/newsite`
+3. **CRITICAL: Set Root Directory** to `kirillmiller.com/newsite`
+   - In Settings → Source → Click "Add Root Directory"
+   - Enter: `kirillmiller.com/newsite`
+   - Without this, Railway won't find the PHP files!
 4. Set environment variables in Railway dashboard
 5. Deploy
 
