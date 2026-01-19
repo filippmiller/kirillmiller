@@ -25,20 +25,43 @@ jQuery(document).ready(function () {
     if ($galleries.length > 0) {
         var $images = $galleries.find('img');
         var totalImages = $images.length;
-        var loadedImages = 0;
+        var processedImages = 0;
 
         if (totalImages === 0) {
             initGalleries();
         } else {
             $images.each(function() {
                 var img = this;
-                if (img.complete && img.naturalWidth > 0) {
-                    loadedImages++;
-                    if (loadedImages === totalImages) initGalleries();
+                var $img = jQuery(img);
+
+                function checkComplete() {
+                    processedImages++;
+                    // Remove failed images (and their parent link) from DOM
+                    if (img.naturalWidth === 0 || img.naturalHeight === 0) {
+                        var $parent = $img.closest('a');
+                        if ($parent.length) {
+                            $parent.remove();
+                        } else {
+                            $img.remove();
+                        }
+                    }
+                    if (processedImages === totalImages) initGalleries();
+                }
+
+                if (img.complete) {
+                    checkComplete();
                 } else {
-                    jQuery(img).on('load error', function() {
-                        loadedImages++;
-                        if (loadedImages === totalImages) initGalleries();
+                    $img.on('load', checkComplete);
+                    $img.on('error', function() {
+                        // Remove failed image and its parent link
+                        var $parent = $img.closest('a');
+                        if ($parent.length) {
+                            $parent.remove();
+                        } else {
+                            $img.remove();
+                        }
+                        processedImages++;
+                        if (processedImages === totalImages) initGalleries();
                     });
                 }
             });
