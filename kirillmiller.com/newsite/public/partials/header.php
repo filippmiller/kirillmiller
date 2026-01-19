@@ -42,7 +42,15 @@ $logoMobile = '/assets/images/mobile_logo.png';
         </div>
     </div>
     <div class="row text-center">
-        <div class="col py-2 sub-menu-block d-none d-sm-block">
+        <?php
+        // Check if we have a parent menu item active
+        $hasParentActive = !empty($subMenuHtml) && strpos($mainMenuHtml, 'current-menu-parent') !== false;
+        $subMenuClass = 'col py-2 sub-menu-block d-none d-sm-block';
+        if ($hasParentActive) {
+            $subMenuClass .= ' has-parent-active';
+        }
+        ?>
+        <div class="<?php echo $subMenuClass; ?>">
             <?php if (!empty($subMenuHtml)) { ?>
                 <div class="menu-block">
                     <ul class="menu">

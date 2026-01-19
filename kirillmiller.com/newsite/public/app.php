@@ -6,7 +6,14 @@ $projectRoot = dirname($publicRoot);
 
 define('DATA_PATH', $projectRoot . '/storage/data');
 define('UPLOADS_PATH', $publicRoot . '/uploads');
-define('UPLOADS_URL', '/uploads');
+
+// Use Supabase CDN for images in production, local path for development
+$supabaseUrl = getenv('SUPABASE_STORAGE_URL');
+if ($supabaseUrl) {
+    define('UPLOADS_URL', rtrim($supabaseUrl, '/'));
+} else {
+    define('UPLOADS_URL', '/uploads');
+}
 
 $config = require __DIR__ . '/config.php';
 
@@ -139,14 +146,33 @@ function get_menu_children($items, $parentId)
 function build_menu_html($items, $currentSlug)
 {
     $items = sort_by_order($items);
+
+    // Find current menu item and its parent
+    $currentItem = find_menu_item_by_slug($items, $currentSlug);
+    $currentParentId = $currentItem ? ($currentItem['parent_id'] ?? null) : null;
+
     $html = '';
     foreach ($items as $item) {
         if (!empty($item['parent_id'])) {
             continue;
         }
         $slug = $item['slug'] ?? '';
-        $class = $slug === $currentSlug ? 'current-menu-item' : '';
-        $html .= '<li class="' . h($class) . '"><a href="' . h(menu_url($slug)) . '">' . h($item['title'] ?? '') . '</a></li>';
+        $itemId = $item['id'] ?? null;
+
+        // Check if this is the current item or the parent of current item
+        $isCurrent = $slug === $currentSlug;
+        $isParent = $currentParentId && $itemId === $currentParentId;
+
+        $classes = [];
+        if ($isCurrent) {
+            $classes[] = 'current-menu-item';
+        }
+        if ($isParent) {
+            $classes[] = 'current-menu-parent';
+        }
+
+        $classStr = implode(' ', $classes);
+        $html .= '<li class="' . h($classStr) . '"><a href="' . h(menu_url($slug)) . '">' . h($item['title'] ?? '') . '</a></li>';
     }
     return $html;
 }
